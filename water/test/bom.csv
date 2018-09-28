@@ -1,0 +1,34 @@
+Part,Value,Designators,Manufacturer Part Number,Manufacturer 2 Part Number,Footprint,Part Value,Library
+23K256,,U7,23K256,N25S830HA,ICs:SO-8,23K256,diodes
+CAP_0603,0.1uF,"C3, C1, C4, C2, C9, C10, C5, C6, C7, C8, C11, C12, C13, C14, C15, C16, C17, C18, C19, C20",,,passives:C0603,CAP_0603,passives
+CAP_0603,100pF,C24,{PN},,passives:C0603,CAP_0603,passives
+CAP_0805,10uF,"C23, C22",,,passives:C0805,CAP_0805,passives
+CAP_ELEC,100uF,C21,EEE-1AA101WR,,passives:CAP_ELEC_5mm,CAP_ELEC,passives
+CAP_ELEC,100uF,C26,EEE-FK1J101P,,passives:CAP_ELEC_10mm,CAP_ELEC,passives
+CAP_ELEC,470uF,C25,EEE-1EA471P,,passives:CAP_ELEC_10mm,CAP_ELEC,passives
+Diode_SMB,,"D13, D15, D14, D16, D9",{PN},,diodes:SMB,Diode_SMB,diodes
+HEADER_1X6,,J1,,,connectors:Header_6-pin_100mil,HEADER_1X6,connectors
+IND,220nH,L1,SRR1260-221K,,passives:SRR1260-221K,IND,passives
+LED_0603,,"D4, D3, D2, D5, D7, D11, D10",LTST-C191KGKT,,diodes:D0603,LED_0603,diodes
+Level_Shifter_single,,"U4, U5, U8, U9, U11, U10, U12",SN74LVC1T45DBVR,,ICs:SOT-23-6,Level_Shifter_single,IC_Interface
+MC34063A_buck,,U15,MC34063A,,ICs:SO-8,MC34063A_buck,regulators
+MNT-3MM,,"M1, M3, M2, M4",,,mechanical:MNT-3mm,MNT-3MM,mechanical
+MOSFET-N,,"Q3, Q2, Q1, Q4, Q5",2N7002,,ICs:SOT-23-3-FET,MOSFET-N,transistors
+MPX5100,,U1,MXP5100DP,,ICs:MPX5100,MPX5100,misc
+PIC16F1829_SOIC,,U3,,,ICs:SO-20_300,PIC16F1829_SOIC,microchip_mcu
+RES_0603,0 Ohm,"R11, R12, R8, R7, R9, R14, R2, R4, R6, R18, R10, R46, R47, R48",,,passives:R0603,RES_0603,passives
+RES_0603,1.2k,R44,{PN},,passives:R0603,RES_0603,passives
+RES_0603,100,"R26, R27, R23, R22, R32, R39",,,passives:R0603,RES_0603,passives
+RES_0603,10k,"R13, R5, R24, R16, R17, R28, R29, R30, R33, R34",,,passives:R0603,RES_0603,passives
+RES_0603,3.6k,R43,{PN},,passives:R0603,RES_0603,passives
+RES_0603,470,"R21, R20, R19, R31, R38, R41, R42",RC0603JR-07470RL,,passives:R0603,RES_0603,passives
+RES_0603,75,"R1, R3",,,passives:R0603,RES_0603,passives
+RES_0603,NC,"R25, R15, R35, R36, R37",,,passives:R0603,RES_0603,passives
+RES_0805,0.75,R40,{PN},,R0805,RES_0805,passives
+RES_0805,NC,R45,{PN},,passives:R0805,RES_0805,passives
+RS485_TRX_14pin,,U2,SN65LBC180D,ISL8489E,ICs:SO-14,RS485_TRX_14pin,IC_Interface
+Relay-EC2-5NU,,"U13, U14",EC2-5NU,,switches:EC2-5NU,Relay-EC2-5NU,switches
+Schottky_SMA,,"D1, D6, D8, D12",{PN},,diodes:SMA,Schottky_SMA,diodes
+TLV1117_3.3V,,U16,,,ICs:SOT-223,TLV1117_3.3V,regulators
+Temp_SOT23-3,,U6,MCP9700T,,ICs:SOT-23-3,Temp_SOT23-3,misc
+term_block_4-pin,,"J3, J5, J4, J2",{PN},,connectors:term_block_4-pin,term_block_4-pin,connectors

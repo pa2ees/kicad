@@ -1,0 +1,46 @@
+eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 2/25/2015 9:52:06 PM
+#Cmp ( order = Reference )
+| C1         CAP_0805    ; 4.7uF       
+| C2         CAP_0603    ; 0.1uF       
+| C3         CAP_0603    ; 47pF        
+| C4         CAP_0603    ; 0.1uF       
+| C5         CAP_0603    ; 47pF        
+| C6         CAP_0805    ; 2.2uF       
+| C7         CAP_0805    ; 10uF        
+| CON1       USB-MINI-B  ;             
+| D1         SCHOTTKY_SMB;             
+| D2         SCHOTTKY_SMB;             
+| R1         RES_0603    ; 0 Ohms      
+| R2         RES_0603    ; 10K         
+| R3         RES_0603    ; 27R         
+| R4         RES_0603    ; 27R         
+| R5         RES_0603    ; 27R         
+| R6         RES_0603    ; 27R         
+| U1         FT230XS     ;             
+| U2         PIC16F1459_SOIC;             
+| U3         TLV1117_3.3V;             
+#End Cmp
+
+#Cmp ( order = Value )
+| CAP_0805     C1        ; 4.7uF       
+| CAP_0603     C2        ; 0.1uF       
+| CAP_0603     C3        ; 47pF        
+| CAP_0603     C4        ; 0.1uF       
+| CAP_0603     C5        ; 47pF        
+| CAP_0805     C6        ; 2.2uF       
+| CAP_0805     C7        ; 10uF        
+| USB-MINI-B   CON1      ;             
+| SCHOTTKY_SMB D1        ;             
+| SCHOTTKY_SMB D2        ;             
+| RES_0603     R1        ; 0 Ohms      
+| RES_0603     R2        ; 10K         
+| RES_0603     R3        ; 27R         
+| RES_0603     R4        ; 27R         
+| RES_0603     R5        ; 27R         
+| RES_0603     R6        ; 27R         
+| TLV1117_3.3V U3        ;             
+| FT230XS      U1        ;             
+| PIC16F1459_SOIC U2        ;             
+#End Cmp
+
+#End List

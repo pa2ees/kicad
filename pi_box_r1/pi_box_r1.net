@@ -1,0 +1,51 @@
+(export (version D)
+  (design
+    (source C:/_projects/kicad/pi_box_r1/pi_box_r1.sch)
+    (date "3/8/2016 10:23:00 PM")
+    (tool "Eeschema 4.0.2-stable")
+    (sheet (number 1) (name /) (tstamps /)
+      (title_block
+        (title)
+        (company)
+        (rev)
+        (date)
+        (source pi_box_r1.sch)
+        (comment (number 1) (value ""))
+        (comment (number 2) (value ""))
+        (comment (number 3) (value ""))
+        (comment (number 4) (value "")))))
+  (components
+    (comp (ref P1)
+      (value USB_A)
+      (footprint Connect:USB_A)
+      (libsource (lib conn) (part USB_A))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 56DFB38D)))
+  (libparts
+    (libpart (lib conn) (part USB_A)
+      (description "A connector")
+      (footprints
+        (fp USB*))
+      (fields
+        (field (name Reference) P)
+        (field (name Value) USB_A))
+      (pins
+        (pin (num 1) (name VCC) (type power_in))
+        (pin (num 2) (name D-) (type passive))
+        (pin (num 3) (name D+) (type passive))
+        (pin (num 4) (name GND) (type power_in))
+        (pin (num 5) (name shield) (type passive)))))
+  (libraries
+    (library (logical conn)
+      (uri E:\KiCad\share\kicad\library\conn.lib)))
+  (nets
+    (net (code 1) (name "Net-(P1-Pad1)")
+      (node (ref P1) (pin 1)))
+    (net (code 2) (name "Net-(P1-Pad2)")
+      (node (ref P1) (pin 2)))
+    (net (code 3) (name "Net-(P1-Pad3)")
+      (node (ref P1) (pin 3)))
+    (net (code 4) (name "Net-(P1-Pad4)")
+      (node (ref P1) (pin 4)))
+    (net (code 5) (name "Net-(P1-Pad5)")
+      (node (ref P1) (pin 5)))))

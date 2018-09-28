@@ -1,0 +1,43 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Diode_SMA
+D Jelly Bean Surface Mount Diode, 1A 1.1Vf
+$ENDCMP
+#
+$CMP Diode_SMB
+D Jelly Bean Surface Mount Diode, 1A 1.1Vf
+$ENDCMP
+#
+$CMP LED_0402
+D Jelly Bean Surface Mount Diode, 1A 1.1Vf
+$ENDCMP
+#
+$CMP LED_0603
+D Jelly Bean Surface Mount Diode, 1A 1.1Vf
+$ENDCMP
+#
+$CMP LED_0805
+D Jelly Bean Surface Mount Diode, 1A 1.1Vf
+$ENDCMP
+#
+$CMP LED_1206
+D Jelly Bean Surface Mount Diode, 1A 1.1Vf
+$ENDCMP
+#
+$CMP Schottky_SMA
+D Jelly Bean Surface Mount Diode, 1A 1.1Vf
+$ENDCMP
+#
+$CMP Schottky_SMB
+D Jelly Bean Surface Mount Diode, 1A 1.1Vf
+$ENDCMP
+#
+$CMP Zener_SMA
+D Jelly Bean Surface Mount Diode, 1A 1.1Vf
+$ENDCMP
+#
+$CMP Zener_SMB
+D Jelly Bean Surface Mount Diode, 1A 1.1Vf
+$ENDCMP
+#
+#End Doc Library
