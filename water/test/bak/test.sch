@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L RS485_TRX_14pin U2
+L test-rescue:RS485_TRX_14pin U2
 U 1 1 5A18BDB5
 P 9450 1250
 F 0 "U2" H 9700 1350 60  0000 C CNN
@@ -28,7 +28,7 @@ F 5 "ISL8489E" H 9450 1250 60  0001 C CNN "MFG2_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L HEADER_1X6 J1
+L test-rescue:HEADER_1X6 J1
 U 1 1 5A18CA41
 P 7550 950
 F 0 "J1" H 7350 1100 60  0000 C CNN
@@ -41,7 +41,7 @@ $EndComp
 Text Label 7050 950  0    60   ~ 0
 MCLR
 $Comp
-L GND #PWR32
+L power:GND #PWR32
 U 1 1 5A18E102
 P 6750 1250
 F 0 "#PWR32" H 6750 1000 50  0001 C CNN
@@ -74,7 +74,7 @@ nRX_EN
 Text Label 8500 1550 0    60   ~ 0
 TX_EN
 $Comp
-L GND #PWR58
+L power:GND #PWR58
 U 1 1 5A18EAC6
 P 9300 2300
 F 0 "#PWR58" H 9300 2050 50  0001 C CNN
@@ -101,7 +101,7 @@ RX-
 Text Label 10500 750  0    60   ~ 0
 TX-
 $Comp
-L GND #PWR72
+L power:GND #PWR72
 U 1 1 5A18EFE0
 P 10900 1700
 F 0 "#PWR72" H 10900 1450 50  0001 C CNN
@@ -124,7 +124,7 @@ Termination Resistors
 Text Notes 9850 650  0    60   ~ 0
 Half Duplex Connections
 $Comp
-L GND #PWR14
+L power:GND #PWR14
 U 1 1 5A18F9C8
 P 3700 1350
 F 0 "#PWR14" H 3700 1100 50  0001 C CNN
@@ -155,7 +155,7 @@ F 4 "MXP5100DP" H 1900 1050 60  0001 C CNN "MFG_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR4
+L power:GND #PWR4
 U 1 1 5A1902DA
 P 1550 1250
 F 0 "#PWR4" H 1550 1000 50  0001 C CNN
@@ -166,7 +166,7 @@ F 3 "" H 1550 1250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR2
+L power:GND #PWR2
 U 1 1 5A1903D8
 P 800 1450
 F 0 "#PWR2" H 800 1200 50  0001 C CNN
@@ -181,7 +181,7 @@ V_TankLevel
 Text Label 3150 1850 0    60   ~ 0
 V_TankLevel
 $Comp
-L GND #PWR47
+L power:GND #PWR47
 U 1 1 5A1911C3
 P 8200 2100
 F 0 "#PWR47" H 8200 1850 50  0001 C CNN
@@ -194,7 +194,7 @@ $EndComp
 Text Label 4250 900  0    60   ~ 0
 MCLR
 $Comp
-L GND #PWR23
+L power:GND #PWR23
 U 1 1 5A1914D7
 P 5600 1100
 F 0 "#PWR23" H 5600 850 50  0001 C CNN
@@ -205,7 +205,7 @@ F 3 "" H 5600 1100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L RES_0603 R11
+L test-rescue:RES_0603 R11
 U 1 1 5A191A26
 P 5950 1750
 F 0 "R11" H 5750 1800 40  0000 C CNN
@@ -217,7 +217,7 @@ F 4 "0 Ohm" H 5950 1800 40  0000 C CNN "val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L RES_0603 R12
+L test-rescue:RES_0603 R12
 U 1 1 5A191B85
 P 5950 1850
 F 0 "R12" H 5750 1900 40  0000 C CNN
@@ -229,7 +229,7 @@ F 4 "0 Ohm" H 5950 1900 40  0000 C CNN "val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L RES_0603 R8
+L test-rescue:RES_0603 R8
 U 1 1 5A191FFA
 P 8350 1450
 F 0 "R8" H 8150 1500 40  0000 C CNN
@@ -241,7 +241,7 @@ F 4 "0 Ohm" H 8350 1500 40  0000 C CNN "val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L RES_0603 R13
+L test-rescue:RES_0603 R13
 U 1 1 5A192087
 P 8200 1900
 F 0 "R13" H 8000 1950 40  0000 C CNN
@@ -253,7 +253,7 @@ F 4 "10k" H 8200 1950 40  0000 C CNN "val"
 	0    1    1    0   
 $EndComp
 $Comp
-L RES_0603 R7
+L test-rescue:RES_0603 R7
 U 1 1 5A192333
 P 9250 1350
 F 0 "R7" H 9050 1400 40  0000 C CNN
@@ -265,7 +265,7 @@ F 4 "0 Ohm" H 9250 1400 40  0000 C CNN "val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L RES_0603 R9
+L test-rescue:RES_0603 R9
 U 1 1 5A192397
 P 9250 1650
 F 0 "R9" H 9050 1700 40  0000 C CNN
@@ -277,7 +277,7 @@ F 4 "0 Ohm" H 9250 1700 40  0000 C CNN "val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L RES_0603 R14
+L test-rescue:RES_0603 R14
 U 1 1 5A1924EF
 P 9300 2100
 F 0 "R14" H 9100 2150 40  0000 C CNN
@@ -289,7 +289,7 @@ F 4 "0 Ohm" H 9300 2150 40  0000 C CNN "val"
 	0    1    1    0   
 $EndComp
 $Comp
-L RES_0603 R1
+L test-rescue:RES_0603 R1
 U 1 1 5A1927AC
 P 9100 750
 F 0 "R1" H 8900 800 40  0000 C CNN
@@ -301,7 +301,7 @@ F 4 "75" H 9050 800 40  0000 C CNN "val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L RES_0603 R3
+L test-rescue:RES_0603 R3
 U 1 1 5A192826
 P 9100 850
 F 0 "R3" H 8900 900 40  0000 C CNN
@@ -313,7 +313,7 @@ F 4 "75" H 9050 900 40  0000 C CNN "val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L RES_0603 R2
+L test-rescue:RES_0603 R2
 U 1 1 5A192871
 P 10300 750
 F 0 "R2" H 10100 800 40  0000 C CNN
@@ -325,7 +325,7 @@ F 4 "0 Ohm" H 10300 800 40  0000 C CNN "val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L RES_0603 R4
+L test-rescue:RES_0603 R4
 U 1 1 5A1928C5
 P 10300 850
 F 0 "R4" H 10100 900 40  0000 C CNN
@@ -337,7 +337,7 @@ F 4 "0 Ohm" H 10300 900 40  0000 C CNN "val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L RES_0603 R5
+L test-rescue:RES_0603 R5
 U 1 1 5A192C34
 P 5450 900
 F 0 "R5" H 5250 950 40  0000 C CNN
@@ -349,7 +349,7 @@ F 4 "10k" H 5450 950 40  0000 C CNN "val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CAP_0603 C3
+L test-rescue:CAP_0603 C3
 U 1 1 5A19361A
 P 800 1200
 F 0 "C3" H 650 1150 40  0000 C CNN
@@ -361,7 +361,7 @@ F 4 "0.1uF" H 950 1150 40  0000 C CNN "val"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L CAP_0603 C1
+L test-rescue:CAP_0603 C1
 U 1 1 5A193A7B
 P 3700 1100
 F 0 "C1" H 3550 1050 40  0000 C CNN
@@ -373,7 +373,7 @@ F 4 "0.1uF" H 3850 1050 40  0000 C CNN "val"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L CAP_0603 C4
+L test-rescue:CAP_0603 C4
 U 1 1 5A193CA1
 P 10900 1450
 F 0 "C4" H 10750 1400 40  0000 C CNN
@@ -385,7 +385,7 @@ F 4 "0.1uF" H 11050 1400 40  0000 C CNN "val"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L CAP_0603 C2
+L test-rescue:CAP_0603 C2
 U 1 1 5A193F1F
 P 5250 1100
 F 0 "C2" H 5100 1050 40  0000 C CNN
@@ -397,7 +397,7 @@ F 4 "0.1uF" H 5400 1050 40  0000 C CNN "val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L PIC16F1829_SOIC U3
+L test-rescue:PIC16F1829_SOIC U3
 U 1 1 5A194ADF
 P 3950 1650
 F 0 "U3" H 4050 1750 60  0000 C CNN
@@ -408,7 +408,7 @@ F 3 "" H 3950 1650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR25
+L power:GND #PWR25
 U 1 1 5A194C9F
 P 5650 1550
 F 0 "#PWR25" H 5650 1300 50  0001 C CNN
@@ -419,7 +419,7 @@ F 3 "" H 5650 1550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MOSFET-N Q3
+L test-rescue:MOSFET-N Q3
 U 1 1 5A195DB3
 P 7700 3350
 F 0 "Q3" H 7700 3201 40  0000 R CNN
@@ -431,7 +431,7 @@ F 4 "2N7002" H 7700 3350 60  0001 C CNN "MFG_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L RES_0603 R21
+L test-rescue:RES_0603 R21
 U 1 1 5A195E8E
 P 7800 3000
 F 0 "R21" H 7600 3050 40  0000 C CNN
@@ -444,7 +444,7 @@ F 5 "RC0603JR-07470RL" H 7800 3000 60  0001 C CNN "MFG_PN"
 	0    1    1    0   
 $EndComp
 $Comp
-L RES_0603 R20
+L test-rescue:RES_0603 R20
 U 1 1 5A195F8A
 P 7300 3000
 F 0 "R20" H 7100 3050 40  0000 C CNN
@@ -457,7 +457,7 @@ F 5 "RC0603JR-07470RL" H 7300 3000 60  0001 C CNN "MFG_PN"
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR44
+L power:GND #PWR44
 U 1 1 5A19600A
 P 7800 3600
 F 0 "#PWR44" H 7800 3350 50  0001 C CNN
@@ -468,7 +468,7 @@ F 3 "" H 7800 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR38
+L power:GND #PWR38
 U 1 1 5A196066
 P 7300 3600
 F 0 "#PWR38" H 7300 3350 50  0001 C CNN
@@ -487,7 +487,7 @@ PIC_RX
 Text Label 10300 2900 0    60   ~ 0
 PIC_RX_5V
 $Comp
-L GND #PWR52
+L power:GND #PWR52
 U 1 1 5A19F6AF
 P 8800 2900
 F 0 "#PWR52" H 8800 2650 50  0001 C CNN
@@ -498,7 +498,7 @@ F 3 "" H 8800 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR64
+L power:+5V #PWR64
 U 1 1 5A19F875
 P 10400 1200
 F 0 "#PWR64" H 10400 1050 50  0001 C CNN
@@ -509,7 +509,7 @@ F 3 "" H 10400 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR71
+L power:+5V #PWR71
 U 1 1 5A19F983
 P 10900 1150
 F 0 "#PWR71" H 10900 1000 50  0001 C CNN
@@ -520,7 +520,7 @@ F 3 "" H 10900 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR31
+L power:+3.3V #PWR31
 U 1 1 5A19FABC
 P 6550 850
 F 0 "#PWR31" H 6550 700 50  0001 C CNN
@@ -531,7 +531,7 @@ F 3 "" H 6550 850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR24
+L power:+3.3V #PWR24
 U 1 1 5A19FBCA
 P 5650 850
 F 0 "#PWR24" H 5650 700 50  0001 C CNN
@@ -542,7 +542,7 @@ F 3 "" H 5650 850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR13
+L power:+3.3V #PWR13
 U 1 1 5A19FCC7
 P 3700 850
 F 0 "#PWR13" H 3700 700 50  0001 C CNN
@@ -553,7 +553,7 @@ F 3 "" H 3700 850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR12
+L power:+3.3V #PWR12
 U 1 1 5A19FD2C
 P 3450 1650
 F 0 "#PWR12" H 3450 1500 50  0001 C CNN
@@ -564,7 +564,7 @@ F 3 "" H 3450 1650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR1
+L power:+5V #PWR1
 U 1 1 5A19FF4B
 P 800 950
 F 0 "#PWR1" H 800 800 50  0001 C CNN
@@ -575,7 +575,7 @@ F 3 "" H 800 950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR3
+L power:+5V #PWR3
 U 1 1 5A1A0106
 P 1550 1100
 F 0 "#PWR3" H 1550 950 50  0001 C CNN
@@ -586,7 +586,7 @@ F 3 "" H 1550 1100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR37
+L power:+5V #PWR37
 U 1 1 5A1A0311
 P 7300 2200
 F 0 "#PWR37" H 7300 2050 50  0001 C CNN
@@ -597,7 +597,7 @@ F 3 "" H 7300 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR43
+L power:+5V #PWR43
 U 1 1 5A1A03EE
 P 7800 2200
 F 0 "#PWR43" H 7800 2050 50  0001 C CNN
@@ -608,7 +608,7 @@ F 3 "" H 7800 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR63
+L power:+5V #PWR63
 U 1 1 5A1A04CB
 P 10350 2700
 F 0 "#PWR63" H 10350 2550 50  0001 C CNN
@@ -619,7 +619,7 @@ F 3 "" H 10350 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR57
+L power:+3.3V #PWR57
 U 1 1 5A1A0530
 P 9200 2700
 F 0 "#PWR57" H 9200 2550 50  0001 C CNN
@@ -642,7 +642,7 @@ TX_EN_3V3
 Text Label 10300 4800 0    60   ~ 0
 TX_EN
 $Comp
-L MOSFET-N Q2
+L test-rescue:MOSFET-N Q2
 U 1 1 5A1A170B
 P 7200 3350
 F 0 "Q2" H 7200 3201 40  0000 R CNN
@@ -662,7 +662,7 @@ F2 "VIN_AC" I L 2050 7000 60
 F3 "VIN_GND" I L 2050 7350 60 
 $EndSheet
 $Comp
-L 23K256 U7
+L test-rescue:23K256 U7
 U 1 1 5A1A3062
 P 1600 3750
 F 0 "U7" H 1850 3850 60  0000 C CNN
@@ -675,7 +675,7 @@ F 5 "N25S830HA" H 1600 3750 60  0001 C CNN "MFG2_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR8
+L power:+3.3V #PWR8
 U 1 1 5A1A34F9
 P 2550 3650
 F 0 "#PWR8" H 2550 3500 50  0001 C CNN
@@ -686,7 +686,7 @@ F 3 "" H 2550 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L RES_0603 R24
+L test-rescue:RES_0603 R24
 U 1 1 5A1A384E
 P 2750 3850
 F 0 "R24" H 2550 3900 40  0000 C CNN
@@ -698,7 +698,7 @@ F 4 "10k" H 2750 3900 40  0000 C CNN "val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L RES_0603 R26
+L test-rescue:RES_0603 R26
 U 1 1 5A1A3C32
 P 2750 3950
 F 0 "R26" H 2550 4000 40  0000 C CNN
@@ -710,7 +710,7 @@ F 4 "100" H 2750 4000 40  0000 C CNN "val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L RES_0603 R27
+L test-rescue:RES_0603 R27
 U 1 1 5A1A3E0E
 P 2750 4050
 F 0 "R27" H 2550 4100 40  0000 C CNN
@@ -722,7 +722,7 @@ F 4 "100" H 2750 4100 40  0000 C CNN "val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L RES_0603 R23
+L test-rescue:RES_0603 R23
 U 1 1 5A1A3EB8
 P 1450 3850
 F 0 "R23" H 1250 3900 40  0000 C CNN
@@ -734,7 +734,7 @@ F 4 "100" H 1450 3900 40  0000 C CNN "val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L RES_0603 R22
+L test-rescue:RES_0603 R22
 U 1 1 5A1A3F5A
 P 1450 3750
 F 0 "R22" H 1250 3800 40  0000 C CNN
@@ -746,7 +746,7 @@ F 4 "100" H 1450 3800 40  0000 C CNN "val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CAP_0603 C9
+L test-rescue:CAP_0603 C9
 U 1 1 5A1A481E
 P 3050 3350
 F 0 "C9" H 2900 3300 40  0000 C CNN
@@ -758,7 +758,7 @@ F 4 "0.1uF" H 3200 3300 40  0000 C CNN "val"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L +3.3V #PWR9
+L power:+3.3V #PWR9
 U 1 1 5A1A4B01
 P 3050 3200
 F 0 "#PWR9" H 3050 3050 50  0001 C CNN
@@ -769,7 +769,7 @@ F 3 "" H 3050 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR10
+L power:GND #PWR10
 U 1 1 5A1A4B84
 P 3050 3550
 F 0 "#PWR10" H 3050 3300 50  0001 C CNN
@@ -788,7 +788,7 @@ MISO
 Text Label 750  3750 0    60   ~ 0
 nSPI_CS
 $Comp
-L GND #PWR5
+L power:GND #PWR5
 U 1 1 5A1A535D
 P 1550 4100
 F 0 "#PWR5" H 1550 3850 50  0001 C CNN
@@ -799,7 +799,7 @@ F 3 "" H 1550 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Temp_SOT23-3 U6
+L test-rescue:Temp_SOT23-3 U6
 U 1 1 5A1CF8E3
 P 5200 3350
 F 0 "U6" H 5350 3450 60  0000 C CNN
@@ -811,7 +811,7 @@ F 4 "MCP9700T" H 5000 3550 60  0001 C CNN "MFG_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR26
+L power:GND #PWR26
 U 1 1 5A1CFAEF
 P 5900 3500
 F 0 "#PWR26" H 5900 3250 50  0001 C CNN
@@ -822,7 +822,7 @@ F 3 "" H 5900 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR19
+L power:+5V #PWR19
 U 1 1 5A1CFD6E
 P 5050 3250
 F 0 "#PWR19" H 5050 3100 50  0001 C CNN
@@ -835,7 +835,7 @@ $EndComp
 Text Label 4300 3550 0    60   ~ 0
 V_Temp
 $Comp
-L CAP_0603 C10
+L test-rescue:CAP_0603 C10
 U 1 1 5A1D0284
 P 4100 3600
 F 0 "C10" H 3950 3550 40  0000 C CNN
@@ -847,7 +847,7 @@ F 4 "0.1uF" H 4250 3550 40  0000 C CNN "val"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR17
+L power:GND #PWR17
 U 1 1 5A1D0290
 P 4100 3800
 F 0 "#PWR17" H 4100 3550 50  0001 C CNN
@@ -858,7 +858,7 @@ F 3 "" H 4100 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR16
+L power:+5V #PWR16
 U 1 1 5A1D0379
 P 4100 3450
 F 0 "#PWR16" H 4100 3300 50  0001 C CNN
@@ -871,7 +871,7 @@ $EndComp
 Text Label 3150 1750 0    60   ~ 0
 V_Temp
 $Comp
-L RES_0603 R19
+L test-rescue:RES_0603 R19
 U 1 1 5A1D0A22
 P 6750 3000
 F 0 "R19" H 6550 3050 40  0000 C CNN
@@ -884,7 +884,7 @@ F 5 "RC0603JR-07470RL" H 6750 3000 60  0001 C CNN "MFG_PN"
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR34
+L power:GND #PWR34
 U 1 1 5A1D0A28
 P 6750 3600
 F 0 "#PWR34" H 6750 3350 50  0001 C CNN
@@ -897,7 +897,7 @@ $EndComp
 Text Label 6450 4350 1    60   ~ 0
 TX_EN_3V3
 $Comp
-L +5V #PWR33
+L power:+5V #PWR33
 U 1 1 5A1D0A3A
 P 6750 2200
 F 0 "#PWR33" H 6750 2050 50  0001 C CNN
@@ -908,7 +908,7 @@ F 3 "" H 6750 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MOSFET-N Q1
+L test-rescue:MOSFET-N Q1
 U 1 1 5A1D0A41
 P 6650 3350
 F 0 "Q1" H 6650 3201 40  0000 R CNN
@@ -920,7 +920,7 @@ F 4 "2N7002" H 6650 3350 60  0001 C CNN "MFG_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Relay-EC2-5NU U13
+L test-rescue:Relay-EC2-5NU U13
 U 1 1 5A1D1406
 P 2050 5700
 F 0 "U13" H 2200 5800 60  0000 C CNN
@@ -944,7 +944,7 @@ SW_24V_1
 Text Label 2700 6100 0    60   ~ 0
 SW_24V_2
 $Comp
-L +5V #PWR7
+L power:+5V #PWR7
 U 1 1 5A1D257D
 P 1950 5050
 F 0 "#PWR7" H 1950 4900 50  0001 C CNN
@@ -955,7 +955,7 @@ F 3 "" H 1950 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Schottky_SMA D1
+L test-rescue:Schottky_SMA D1
 U 1 1 5A1D2C34
 P 4750 900
 F 0 "D1" H 4600 850 60  0000 C CNN
@@ -967,7 +967,7 @@ F 4 "{PN}" H 4700 950 60  0001 C CNN "MFG_PN"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Schottky_SMA D6
+L test-rescue:Schottky_SMA D6
 U 1 1 5A1D31B5
 P 2350 5450
 F 0 "D6" H 2200 5400 60  0000 C CNN
@@ -979,7 +979,7 @@ F 4 "{PN}" H 2300 5500 60  0001 C CNN "MFG_PN"
 	-1   0    0    1   
 $EndComp
 $Comp
-L MOSFET-N Q4
+L test-rescue:MOSFET-N Q4
 U 1 1 5A1D3904
 P 3100 5600
 F 0 "Q4" H 3100 5451 40  0000 R CNN
@@ -995,7 +995,7 @@ Fill_SW
 Text Label 3650 5350 0    60   ~ 0
 Fill_SW
 $Comp
-L GND #PWR11
+L power:GND #PWR11
 U 1 1 5A1D4377
 P 3400 5800
 F 0 "#PWR11" H 3400 5550 50  0001 C CNN
@@ -1006,7 +1006,7 @@ F 3 "" H 3400 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L RES_0603 R32
+L test-rescue:RES_0603 R32
 U 1 1 5A1D4948
 P 3450 5350
 F 0 "R32" H 3250 5400 40  0000 C CNN
@@ -1018,7 +1018,7 @@ F 4 "100" H 3450 5400 40  0000 C CNN "val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L RES_0603 R31
+L test-rescue:RES_0603 R31
 U 1 1 5A1D532C
 P 2600 5200
 F 0 "R31" H 2400 5250 40  0000 C CNN
@@ -1039,7 +1039,7 @@ VIN_GND
 Text Label 1150 5550 0    60   ~ 0
 VIN_GND
 $Comp
-L term_block_4-pin J3
+L test-rescue:term_block_4-pin J3
 U 1 1 5A1E2F9D
 P 1050 5250
 F 0 "J3" H 1300 5350 60  0000 C CNN
@@ -1051,7 +1051,7 @@ F 4 "{PN}" H 1400 5450 60  0001 C CNN "MFG_PN"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L term_block_4-pin J5
+L test-rescue:term_block_4-pin J5
 U 1 1 5A1E3B78
 P 950 7050
 F 0 "J5" H 1200 7150 60  0000 C CNN
@@ -1067,7 +1067,7 @@ VIN_GND
 Text Label 1000 7250 0    60   ~ 0
 VIN_AC
 $Comp
-L Relay-EC2-5NU U14
+L test-rescue:Relay-EC2-5NU U14
 U 1 1 5A1E4A32
 P 4000 6850
 F 0 "U14" H 4150 6950 60  0000 C CNN
@@ -1083,7 +1083,7 @@ VIN_AC
 Text Label 3550 7250 0    60   ~ 0
 SW_24V_3
 $Comp
-L +5V #PWR15
+L power:+5V #PWR15
 U 1 1 5A1E4A40
 P 3900 6200
 F 0 "#PWR15" H 3900 6050 50  0001 C CNN
@@ -1094,7 +1094,7 @@ F 3 "" H 3900 6200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Schottky_SMA D8
+L test-rescue:Schottky_SMA D8
 U 1 1 5A1E4A49
 P 4300 6600
 F 0 "D8" H 4150 6550 60  0000 C CNN
@@ -1106,7 +1106,7 @@ F 4 "{PN}" H 4250 6650 60  0001 C CNN "MFG_PN"
 	-1   0    0    1   
 $EndComp
 $Comp
-L MOSFET-N Q5
+L test-rescue:MOSFET-N Q5
 U 1 1 5A1E4A52
 P 5050 6750
 F 0 "Q5" H 5050 6601 40  0000 R CNN
@@ -1120,7 +1120,7 @@ $EndComp
 Text Label 5600 6500 0    60   ~ 0
 Pump_SW
 $Comp
-L GND #PWR20
+L power:GND #PWR20
 U 1 1 5A1E4A5E
 P 5350 6950
 F 0 "#PWR20" H 5350 6700 50  0001 C CNN
@@ -1131,7 +1131,7 @@ F 3 "" H 5350 6950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L RES_0603 R39
+L test-rescue:RES_0603 R39
 U 1 1 5A1E4A67
 P 5400 6500
 F 0 "R39" H 5200 6550 40  0000 C CNN
@@ -1143,7 +1143,7 @@ F 4 "100" H 5400 6550 40  0000 C CNN "val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L RES_0603 R38
+L test-rescue:RES_0603 R38
 U 1 1 5A1E4A76
 P 4550 6350
 F 0 "R38" H 4350 6400 40  0000 C CNN
@@ -1162,7 +1162,7 @@ VIN_GND
 Text Label 5600 2250 0    60   ~ 0
 Pump_SW
 $Comp
-L term_block_4-pin J4
+L test-rescue:term_block_4-pin J4
 U 1 1 5A1E6592
 P 10750 6000
 F 0 "J4" H 11000 6100 60  0000 C CNN
@@ -1492,7 +1492,7 @@ Wire Wire Line
 Wire Wire Line
 	6550 1750 6050 1750
 $Comp
-L RES_0603 R6
+L test-rescue:RES_0603 R6
 U 1 1 5A1E783D
 P 6900 1050
 F 0 "R6" H 6700 1100 40  0000 C CNN
@@ -1510,7 +1510,7 @@ Wire Wire Line
 Wire Wire Line
 	3150 1850 3750 1850
 $Comp
-L RES_0603 R18
+L test-rescue:RES_0603 R18
 U 1 1 5A1E896F
 P 5000 3550
 F 0 "R18" H 4800 3600 40  0000 C CNN
@@ -1522,7 +1522,7 @@ F 4 "0 Ohm" H 5000 3600 40  0000 C CNN "val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L RES_0603 R25
+L test-rescue:RES_0603 R25
 U 1 1 5A1E8D88
 P 4650 3900
 F 0 "R25" H 4450 3950 40  0000 C CNN
@@ -1534,7 +1534,7 @@ F 4 "NC" H 4650 3950 40  0000 C CNN "val"
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR18
+L power:GND #PWR18
 U 1 1 5A1E8F4D
 P 4650 4050
 F 0 "#PWR18" H 4650 3800 50  0001 C CNN
@@ -1552,7 +1552,7 @@ Wire Wire Line
 	4650 3650 4650 3550
 Connection ~ 4650 3550
 $Comp
-L RES_0603 R10
+L test-rescue:RES_0603 R10
 U 1 1 5A1EA505
 P 1700 1700
 F 0 "R10" H 1500 1750 40  0000 C CNN
@@ -1564,7 +1564,7 @@ F 4 "0 Ohm" H 1700 1750 40  0000 C CNN "val"
 	0    1    1    0   
 $EndComp
 $Comp
-L RES_0603 R15
+L test-rescue:RES_0603 R15
 U 1 1 5A1EA50C
 P 1700 2250
 F 0 "R15" H 1500 2300 40  0000 C CNN
@@ -1576,7 +1576,7 @@ F 4 "NC" H 1700 2300 40  0000 C CNN "val"
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR6
+L power:GND #PWR6
 U 1 1 5A1EA512
 P 1700 2400
 F 0 "#PWR6" H 1700 2150 50  0001 C CNN
@@ -1626,7 +1626,7 @@ Wire Wire Line
 Text Label 9750 6200 2    60   ~ 0
 GPIO
 $Comp
-L term_block_4-pin J2
+L test-rescue:term_block_4-pin J2
 U 1 1 5A1ECB3C
 P 10600 2200
 F 0 "J2" H 10850 2300 60  0000 C CNN
@@ -1654,7 +1654,7 @@ Wire Wire Line
 Wire Wire Line
 	10350 2500 10600 2500
 $Comp
-L GND #PWR65
+L power:GND #PWR65
 U 1 1 5A1EDB2B
 P 10650 6350
 F 0 "#PWR65" H 10650 6100 50  0001 C CNN
@@ -1675,7 +1675,7 @@ Wire Wire Line
 Wire Wire Line
 	10650 6300 10750 6300
 $Comp
-L RES_0603 R35
+L test-rescue:RES_0603 R35
 U 1 1 5A1EF1AA
 P 10100 6000
 F 0 "R35" H 9900 6050 40  0000 C CNN
@@ -1687,7 +1687,7 @@ F 4 "NC" H 10100 6050 40  0000 C CNN "val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L RES_0603 R36
+L test-rescue:RES_0603 R36
 U 1 1 5A1EF40A
 P 10100 6100
 F 0 "R36" H 9900 6150 40  0000 C CNN
@@ -1699,7 +1699,7 @@ F 4 "NC" H 10100 6150 40  0000 C CNN "val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L RES_0603 R37
+L test-rescue:RES_0603 R37
 U 1 1 5A1EF4F1
 P 10100 6200
 F 0 "R37" H 9900 6250 40  0000 C CNN
@@ -1713,9 +1713,11 @@ $EndComp
 Wire Wire Line
 	9100 2700 9200 2700
 Wire Wire Line
+	10250 2700 10350 2700
+Wire Wire Line
 	10250 2900 10850 2900
 $Comp
-L CAP_0603 C5
+L test-rescue:CAP_0603 C5
 U 1 1 5A1F1F2A
 P 8950 2700
 F 0 "C5" H 8800 2650 40  0000 C CNN
@@ -1731,7 +1733,7 @@ Wire Wire Line
 	8850 2700 8800 2700
 Connection ~ 8800 2800
 $Comp
-L CAP_0603 C6
+L test-rescue:CAP_0603 C6
 U 1 1 5A1F2640
 P 10500 2700
 F 0 "C6" H 10350 2650 40  0000 C CNN
@@ -1742,8 +1744,9 @@ F 4 "0.1uF" H 10450 2600 40  0000 C CNN "val"
 	1    10500 2700
 	-1   0    0    1   
 $EndComp
+Connection ~ 10350 2700
 $Comp
-L GND #PWR70
+L power:GND #PWR70
 U 1 1 5A1F28A4
 P 10750 2700
 F 0 "#PWR70" H 10750 2450 50  0001 C CNN
@@ -1756,7 +1759,7 @@ $EndComp
 Wire Wire Line
 	10750 2700 10650 2700
 $Comp
-L RES_0603 R16
+L test-rescue:RES_0603 R16
 U 1 1 5A1F3083
 P 10600 2800
 F 0 "R16" H 10400 2850 40  0000 C CNN
@@ -1768,7 +1771,7 @@ F 4 "10k" H 10600 2850 40  0000 C CNN "val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR77
+L power:+3.3V #PWR77
 U 1 1 5A1F3427
 P 11100 2800
 F 0 "#PWR77" H 11100 2650 50  0001 C CNN
@@ -1781,7 +1784,7 @@ $EndComp
 Wire Wire Line
 	10700 2800 11100 2800
 $Comp
-L GND #PWR51
+L power:GND #PWR51
 U 1 1 5A1F4440
 P 8750 3500
 F 0 "#PWR51" H 8750 3250 50  0001 C CNN
@@ -1792,7 +1795,7 @@ F 3 "" H 8750 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR59
+L power:+5V #PWR59
 U 1 1 5A1F4446
 P 10300 3300
 F 0 "#PWR59" H 10300 3150 50  0001 C CNN
@@ -1803,7 +1806,7 @@ F 3 "" H 10300 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR53
+L power:+3.3V #PWR53
 U 1 1 5A1F444C
 P 9150 3300
 F 0 "#PWR53" H 9150 3150 50  0001 C CNN
@@ -1824,9 +1827,11 @@ Wire Wire Line
 Wire Wire Line
 	9050 3300 9150 3300
 Wire Wire Line
+	10200 3300 10300 3300
+Wire Wire Line
 	10200 3500 10800 3500
 $Comp
-L CAP_0603 C7
+L test-rescue:CAP_0603 C7
 U 1 1 5A1F445D
 P 8900 3300
 F 0 "C7" H 8750 3250 40  0000 C CNN
@@ -1842,7 +1847,7 @@ Wire Wire Line
 	8800 3300 8750 3300
 Connection ~ 8750 3400
 $Comp
-L CAP_0603 C8
+L test-rescue:CAP_0603 C8
 U 1 1 5A1F4467
 P 10450 3300
 F 0 "C8" H 10300 3250 40  0000 C CNN
@@ -1853,8 +1858,9 @@ F 4 "0.1uF" H 10400 3200 40  0000 C CNN "val"
 	1    10450 3300
 	-1   0    0    1   
 $EndComp
+Connection ~ 10300 3300
 $Comp
-L GND #PWR66
+L power:GND #PWR66
 U 1 1 5A1F446E
 P 10700 3300
 F 0 "#PWR66" H 10700 3050 50  0001 C CNN
@@ -1867,7 +1873,7 @@ $EndComp
 Wire Wire Line
 	10700 3300 10600 3300
 $Comp
-L RES_0603 R17
+L test-rescue:RES_0603 R17
 U 1 1 5A1F4476
 P 10550 3400
 F 0 "R17" H 10350 3450 40  0000 C CNN
@@ -1879,7 +1885,7 @@ F 4 "10k" H 10550 3450 40  0000 C CNN "val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR73
+L power:+3.3V #PWR73
 U 1 1 5A1F447C
 P 11050 3400
 F 0 "#PWR73" H 11050 3250 50  0001 C CNN
@@ -1892,7 +1898,7 @@ $EndComp
 Wire Wire Line
 	10650 3400 11050 3400
 $Comp
-L GND #PWR48
+L power:GND #PWR48
 U 1 1 5A1F45DC
 P 8550 4150
 F 0 "#PWR48" H 8550 3900 50  0001 C CNN
@@ -1903,7 +1909,7 @@ F 3 "" H 8550 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR60
+L power:+5V #PWR60
 U 1 1 5A1F45E2
 P 10300 3950
 F 0 "#PWR60" H 10300 3800 50  0001 C CNN
@@ -1914,7 +1920,7 @@ F 3 "" H 10300 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR54
+L power:+3.3V #PWR54
 U 1 1 5A1F45E8
 P 9150 3950
 F 0 "#PWR54" H 9150 3800 50  0001 C CNN
@@ -1935,9 +1941,11 @@ Wire Wire Line
 Wire Wire Line
 	8850 3950 9150 3950
 Wire Wire Line
+	10200 3950 10300 3950
+Wire Wire Line
 	10200 4150 10800 4150
 $Comp
-L CAP_0603 C11
+L test-rescue:CAP_0603 C11
 U 1 1 5A1F45F9
 P 8700 3950
 F 0 "C11" H 8550 3900 40  0000 C CNN
@@ -1953,7 +1961,7 @@ Wire Wire Line
 	8600 3950 8550 3950
 Connection ~ 8550 4050
 $Comp
-L CAP_0603 C12
+L test-rescue:CAP_0603 C12
 U 1 1 5A1F4603
 P 10450 3950
 F 0 "C12" H 10300 3900 40  0000 C CNN
@@ -1964,8 +1972,9 @@ F 4 "0.1uF" H 10400 3850 40  0000 C CNN "val"
 	1    10450 3950
 	-1   0    0    1   
 $EndComp
+Connection ~ 10300 3950
 $Comp
-L GND #PWR67
+L power:GND #PWR67
 U 1 1 5A1F460A
 P 10700 3950
 F 0 "#PWR67" H 10700 3700 50  0001 C CNN
@@ -1978,7 +1987,7 @@ $EndComp
 Wire Wire Line
 	10700 3950 10600 3950
 $Comp
-L RES_0603 R28
+L test-rescue:RES_0603 R28
 U 1 1 5A1F4612
 P 10550 4050
 F 0 "R28" H 10350 4100 40  0000 C CNN
@@ -1990,7 +1999,7 @@ F 4 "10k" H 10550 4100 40  0000 C CNN "val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR74
+L power:+3.3V #PWR74
 U 1 1 5A1F4618
 P 11050 4050
 F 0 "#PWR74" H 11050 3900 50  0001 C CNN
@@ -2003,7 +2012,7 @@ $EndComp
 Wire Wire Line
 	10650 4050 11050 4050
 $Comp
-L GND #PWR49
+L power:GND #PWR49
 U 1 1 5A1F4770
 P 8550 4800
 F 0 "#PWR49" H 8550 4550 50  0001 C CNN
@@ -2014,7 +2023,7 @@ F 3 "" H 8550 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR61
+L power:+5V #PWR61
 U 1 1 5A1F4776
 P 10300 4600
 F 0 "#PWR61" H 10300 4450 50  0001 C CNN
@@ -2025,7 +2034,7 @@ F 3 "" H 10300 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR55
+L power:+3.3V #PWR55
 U 1 1 5A1F477C
 P 9150 4600
 F 0 "#PWR55" H 9150 4450 50  0001 C CNN
@@ -2046,9 +2055,11 @@ Wire Wire Line
 Wire Wire Line
 	8850 4600 9150 4600
 Wire Wire Line
+	10200 4600 10300 4600
+Wire Wire Line
 	10200 4800 10800 4800
 $Comp
-L CAP_0603 C13
+L test-rescue:CAP_0603 C13
 U 1 1 5A1F478D
 P 8700 4600
 F 0 "C13" H 8550 4550 40  0000 C CNN
@@ -2064,7 +2075,7 @@ Wire Wire Line
 	8600 4600 8550 4600
 Connection ~ 8550 4700
 $Comp
-L CAP_0603 C14
+L test-rescue:CAP_0603 C14
 U 1 1 5A1F4797
 P 10450 4600
 F 0 "C14" H 10300 4550 40  0000 C CNN
@@ -2075,8 +2086,9 @@ F 4 "0.1uF" H 10400 4500 40  0000 C CNN "val"
 	1    10450 4600
 	-1   0    0    1   
 $EndComp
+Connection ~ 10300 4600
 $Comp
-L GND #PWR68
+L power:GND #PWR68
 U 1 1 5A1F479E
 P 10700 4600
 F 0 "#PWR68" H 10700 4350 50  0001 C CNN
@@ -2089,7 +2101,7 @@ $EndComp
 Wire Wire Line
 	10700 4600 10600 4600
 $Comp
-L RES_0603 R29
+L test-rescue:RES_0603 R29
 U 1 1 5A1F47A6
 P 10550 4700
 F 0 "R29" H 10350 4750 40  0000 C CNN
@@ -2101,7 +2113,7 @@ F 4 "10k" H 10550 4750 40  0000 C CNN "val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR75
+L power:+3.3V #PWR75
 U 1 1 5A1F47AC
 P 11050 4700
 F 0 "#PWR75" H 11050 4550 50  0001 C CNN
@@ -2114,7 +2126,7 @@ $EndComp
 Wire Wire Line
 	10650 4700 11050 4700
 $Comp
-L GND #PWR21
+L power:GND #PWR21
 U 1 1 5A1F5C8C
 P 5550 5100
 F 0 "#PWR21" H 5550 4850 50  0001 C CNN
@@ -2125,7 +2137,7 @@ F 3 "" H 5550 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR39
+L power:+5V #PWR39
 U 1 1 5A1F5C92
 P 7300 4900
 F 0 "#PWR39" H 7300 4750 50  0001 C CNN
@@ -2136,7 +2148,7 @@ F 3 "" H 7300 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR27
+L power:+3.3V #PWR27
 U 1 1 5A1F5C98
 P 6150 4900
 F 0 "#PWR27" H 6150 4750 50  0001 C CNN
@@ -2157,9 +2169,11 @@ Wire Wire Line
 Wire Wire Line
 	5850 4900 6150 4900
 Wire Wire Line
+	7200 4900 7300 4900
+Wire Wire Line
 	7200 5100 7800 5100
 $Comp
-L CAP_0603 C15
+L test-rescue:CAP_0603 C15
 U 1 1 5A1F5CA9
 P 5700 4900
 F 0 "C15" H 5550 4850 40  0000 C CNN
@@ -2175,7 +2189,7 @@ Wire Wire Line
 	5600 4900 5550 4900
 Connection ~ 5550 5000
 $Comp
-L CAP_0603 C16
+L test-rescue:CAP_0603 C16
 U 1 1 5A1F5CB3
 P 7450 4900
 F 0 "C16" H 7300 4850 40  0000 C CNN
@@ -2186,8 +2200,9 @@ F 4 "0.1uF" H 7400 4800 40  0000 C CNN "val"
 	1    7450 4900
 	-1   0    0    1   
 $EndComp
+Connection ~ 7300 4900
 $Comp
-L GND #PWR41
+L power:GND #PWR41
 U 1 1 5A1F5CBA
 P 7700 4900
 F 0 "#PWR41" H 7700 4650 50  0001 C CNN
@@ -2200,7 +2215,7 @@ $EndComp
 Wire Wire Line
 	7700 4900 7600 4900
 $Comp
-L RES_0603 R30
+L test-rescue:RES_0603 R30
 U 1 1 5A1F5CC2
 P 7550 5000
 F 0 "R30" H 7350 5050 40  0000 C CNN
@@ -2212,7 +2227,7 @@ F 4 "10k" H 7550 5050 40  0000 C CNN "val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR45
+L power:+3.3V #PWR45
 U 1 1 5A1F5CC8
 P 8050 5000
 F 0 "#PWR45" H 8050 4850 50  0001 C CNN
@@ -2225,7 +2240,7 @@ $EndComp
 Wire Wire Line
 	7650 5000 8050 5000
 $Comp
-L GND #PWR50
+L power:GND #PWR50
 U 1 1 5A1F61DC
 P 8550 5450
 F 0 "#PWR50" H 8550 5200 50  0001 C CNN
@@ -2236,7 +2251,7 @@ F 3 "" H 8550 5450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR62
+L power:+5V #PWR62
 U 1 1 5A1F61E2
 P 10300 5250
 F 0 "#PWR62" H 10300 5100 50  0001 C CNN
@@ -2247,7 +2262,7 @@ F 3 "" H 10300 5250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR56
+L power:+3.3V #PWR56
 U 1 1 5A1F61E8
 P 9150 5250
 F 0 "#PWR56" H 9150 5100 50  0001 C CNN
@@ -2268,9 +2283,11 @@ Wire Wire Line
 Wire Wire Line
 	8850 5250 9150 5250
 Wire Wire Line
+	10200 5250 10300 5250
+Wire Wire Line
 	10200 5450 10800 5450
 $Comp
-L CAP_0603 C17
+L test-rescue:CAP_0603 C17
 U 1 1 5A1F61F9
 P 8700 5250
 F 0 "C17" H 8550 5200 40  0000 C CNN
@@ -2286,7 +2303,7 @@ Wire Wire Line
 	8600 5250 8550 5250
 Connection ~ 8550 5350
 $Comp
-L CAP_0603 C18
+L test-rescue:CAP_0603 C18
 U 1 1 5A1F6203
 P 10450 5250
 F 0 "C18" H 10300 5200 40  0000 C CNN
@@ -2297,8 +2314,9 @@ F 4 "0.1uF" H 10400 5150 40  0000 C CNN "val"
 	1    10450 5250
 	-1   0    0    1   
 $EndComp
+Connection ~ 10300 5250
 $Comp
-L GND #PWR69
+L power:GND #PWR69
 U 1 1 5A1F620A
 P 10700 5250
 F 0 "#PWR69" H 10700 5000 50  0001 C CNN
@@ -2311,7 +2329,7 @@ $EndComp
 Wire Wire Line
 	10700 5250 10600 5250
 $Comp
-L RES_0603 R33
+L test-rescue:RES_0603 R33
 U 1 1 5A1F6212
 P 10550 5350
 F 0 "R33" H 10350 5400 40  0000 C CNN
@@ -2323,7 +2341,7 @@ F 4 "10k" H 10550 5400 40  0000 C CNN "val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR76
+L power:+3.3V #PWR76
 U 1 1 5A1F6218
 P 11050 5350
 F 0 "#PWR76" H 11050 5200 50  0001 C CNN
@@ -2336,7 +2354,7 @@ $EndComp
 Wire Wire Line
 	10650 5350 11050 5350
 $Comp
-L GND #PWR22
+L power:GND #PWR22
 U 1 1 5A1F64DE
 P 5550 5850
 F 0 "#PWR22" H 5550 5600 50  0001 C CNN
@@ -2347,7 +2365,7 @@ F 3 "" H 5550 5850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR40
+L power:+5V #PWR40
 U 1 1 5A1F64E4
 P 7300 5650
 F 0 "#PWR40" H 7300 5500 50  0001 C CNN
@@ -2358,7 +2376,7 @@ F 3 "" H 7300 5650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR28
+L power:+3.3V #PWR28
 U 1 1 5A1F64EA
 P 6150 5650
 F 0 "#PWR28" H 6150 5500 50  0001 C CNN
@@ -2379,9 +2397,11 @@ Wire Wire Line
 Wire Wire Line
 	5850 5650 6150 5650
 Wire Wire Line
+	7200 5650 7300 5650
+Wire Wire Line
 	7200 5850 7800 5850
 $Comp
-L CAP_0603 C19
+L test-rescue:CAP_0603 C19
 U 1 1 5A1F64FB
 P 5700 5650
 F 0 "C19" H 5550 5600 40  0000 C CNN
@@ -2397,7 +2417,7 @@ Wire Wire Line
 	5600 5650 5550 5650
 Connection ~ 5550 5750
 $Comp
-L CAP_0603 C20
+L test-rescue:CAP_0603 C20
 U 1 1 5A1F6505
 P 7450 5650
 F 0 "C20" H 7300 5600 40  0000 C CNN
@@ -2408,8 +2428,9 @@ F 4 "0.1uF" H 7400 5550 40  0000 C CNN "val"
 	1    7450 5650
 	-1   0    0    1   
 $EndComp
+Connection ~ 7300 5650
 $Comp
-L GND #PWR42
+L power:GND #PWR42
 U 1 1 5A1F650C
 P 7700 5650
 F 0 "#PWR42" H 7700 5400 50  0001 C CNN
@@ -2422,7 +2443,7 @@ $EndComp
 Wire Wire Line
 	7700 5650 7600 5650
 $Comp
-L RES_0603 R34
+L test-rescue:RES_0603 R34
 U 1 1 5A1F6514
 P 7550 5750
 F 0 "R34" H 7350 5800 40  0000 C CNN
@@ -2434,7 +2455,7 @@ F 4 "10k" H 7550 5800 40  0000 C CNN "val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR46
+L power:+3.3V #PWR46
 U 1 1 5A1F651A
 P 8050 5750
 F 0 "#PWR46" H 8050 5600 50  0001 C CNN
@@ -2447,7 +2468,7 @@ $EndComp
 Wire Wire Line
 	7650 5750 8050 5750
 $Comp
-L Level_Shifter_single U4
+L test-rescue:Level_Shifter_single U4
 U 1 1 5A1F68FD
 P 9300 2700
 F 0 "U4" H 9550 2800 60  0000 C CNN
@@ -2459,7 +2480,7 @@ F 4 "SN74LVC1T45DBVR" H 9700 2300 60  0001 C CNN "MFG_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Level_Shifter_single U5
+L test-rescue:Level_Shifter_single U5
 U 1 1 5A1F6FFD
 P 9250 3300
 F 0 "U5" H 9500 3400 60  0000 C CNN
@@ -2471,7 +2492,7 @@ F 4 "SN74LVC1T45DBVR" H 9650 2900 60  0001 C CNN "MFG_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Level_Shifter_single U8
+L test-rescue:Level_Shifter_single U8
 U 1 1 5A1F7195
 P 9250 3950
 F 0 "U8" H 9500 4050 60  0000 C CNN
@@ -2483,7 +2504,7 @@ F 4 "SN74LVC1T45DBVR" H 9650 3550 60  0001 C CNN "MFG_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Level_Shifter_single U9
+L test-rescue:Level_Shifter_single U9
 U 1 1 5A1F72D5
 P 9250 4600
 F 0 "U9" H 9500 4700 60  0000 C CNN
@@ -2495,7 +2516,7 @@ F 4 "SN74LVC1T45DBVR" H 9650 4200 60  0001 C CNN "MFG_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Level_Shifter_single U11
+L test-rescue:Level_Shifter_single U11
 U 1 1 5A1F740E
 P 9250 5250
 F 0 "U11" H 9500 5350 60  0000 C CNN
@@ -2507,7 +2528,7 @@ F 4 "SN74LVC1T45DBVR" H 9650 4850 60  0001 C CNN "MFG_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Level_Shifter_single U10
+L test-rescue:Level_Shifter_single U10
 U 1 1 5A1F760A
 P 6250 4900
 F 0 "U10" H 6500 5000 60  0000 C CNN
@@ -2519,7 +2540,7 @@ F 4 "SN74LVC1T45DBVR" H 6650 4500 60  0001 C CNN "MFG_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Level_Shifter_single U12
+L test-rescue:Level_Shifter_single U12
 U 1 1 5A1F7753
 P 6250 5650
 F 0 "U12" H 6500 5750 60  0000 C CNN
@@ -2555,7 +2576,7 @@ Wire Wire Line
 Wire Wire Line
 	10200 6200 10750 6200
 $Comp
-L LED_0603 D4
+L test-rescue:LED_0603 D4
 U 1 1 5A1FA8C4
 P 7800 2500
 F 0 "D4" H 7650 2450 60  0000 C CNN
@@ -2567,7 +2588,7 @@ F 4 "LTST-C191KGKT" H 7750 2550 60  0001 C CNN "MFG_PN"
 	0    1    1    0   
 $EndComp
 $Comp
-L LED_0603 D3
+L test-rescue:LED_0603 D3
 U 1 1 5A1FAC1F
 P 7300 2500
 F 0 "D3" H 7150 2450 60  0000 C CNN
@@ -2579,7 +2600,7 @@ F 4 "LTST-C191KGKT" H 7250 2550 60  0001 C CNN "MFG_PN"
 	0    1    1    0   
 $EndComp
 $Comp
-L LED_0603 D2
+L test-rescue:LED_0603 D2
 U 1 1 5A1FAD5E
 P 6750 2500
 F 0 "D2" H 6600 2450 60  0000 C CNN
@@ -2591,7 +2612,7 @@ F 4 "LTST-C191KGKT" H 6700 2550 60  0001 C CNN "MFG_PN"
 	0    1    1    0   
 $EndComp
 $Comp
-L LED_0603 D5
+L test-rescue:LED_0603 D5
 U 1 1 5A1FB158
 P 2250 5200
 F 0 "D5" H 2100 5150 60  0000 C CNN
@@ -2603,7 +2624,7 @@ F 4 "LTST-C191KGKT" H 2200 5250 60  0001 C CNN "MFG_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED_0603 D7
+L test-rescue:LED_0603 D7
 U 1 1 5A1FB444
 P 4200 6350
 F 0 "D7" H 4050 6300 60  0000 C CNN
@@ -2615,7 +2636,7 @@ F 4 "LTST-C191KGKT" H 4150 6400 60  0001 C CNN "MFG_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L MNT-3MM M1
+L test-rescue:MNT-3MM M1
 U 1 1 5A202DFE
 P 6050 6800
 F 0 "M1" H 6050 6650 60  0000 C CNN
@@ -2626,7 +2647,7 @@ F 3 "" H 6050 6800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MNT-3MM M3
+L test-rescue:MNT-3MM M3
 U 1 1 5A202F01
 P 6050 7100
 F 0 "M3" H 6050 6950 60  0000 C CNN
@@ -2637,7 +2658,7 @@ F 3 "" H 6050 7100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MNT-3MM M2
+L test-rescue:MNT-3MM M2
 U 1 1 5A203043
 P 6500 6800
 F 0 "M2" H 6500 6650 60  0000 C CNN
@@ -2648,7 +2669,7 @@ F 3 "" H 6500 6800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MNT-3MM M4
+L test-rescue:MNT-3MM M4
 U 1 1 5A203187
 P 6500 7100
 F 0 "M4" H 6500 6950 60  0000 C CNN
@@ -2659,7 +2680,7 @@ F 3 "" H 6500 7100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR29
+L power:GND #PWR29
 U 1 1 5A2033FF
 P 6300 6850
 F 0 "#PWR29" H 6300 6600 50  0001 C CNN
@@ -2670,7 +2691,7 @@ F 3 "" H 6300 6850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR30
+L power:GND #PWR30
 U 1 1 5A203533
 P 6300 7150
 F 0 "#PWR30" H 6300 6900 50  0001 C CNN
@@ -2681,7 +2702,7 @@ F 3 "" H 6300 7150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR36
+L power:GND #PWR36
 U 1 1 5A203667
 P 6750 7150
 F 0 "#PWR36" H 6750 6900 50  0001 C CNN
@@ -2692,7 +2713,7 @@ F 3 "" H 6750 7150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR35
+L power:GND #PWR35
 U 1 1 5A20379B
 P 6750 6850
 F 0 "#PWR35" H 6750 6600 50  0001 C CNN
@@ -2711,7 +2732,7 @@ Wire Wire Line
 Wire Wire Line
 	6750 6850 6750 6800
 $Comp
-L RES_0603 R46
+L test-rescue:RES_0603 R46
 U 1 1 5A26477D
 P 6450 3750
 F 0 "R46" H 6250 3800 40  0000 C CNN
@@ -2723,7 +2744,7 @@ F 4 "0 Ohm" H 6450 3800 40  0000 C CNN "val"
 	0    1    1    0   
 $EndComp
 $Comp
-L RES_0603 R47
+L test-rescue:RES_0603 R47
 U 1 1 5A264F97
 P 7000 3750
 F 0 "R47" H 6800 3800 40  0000 C CNN
@@ -2735,7 +2756,7 @@ F 4 "0 Ohm" H 7000 3800 40  0000 C CNN "val"
 	0    1    1    0   
 $EndComp
 $Comp
-L RES_0603 R48
+L test-rescue:RES_0603 R48
 U 1 1 5A265163
 P 7500 3750
 F 0 "R48" H 7300 3800 40  0000 C CNN
@@ -2789,41 +2810,41 @@ Wire Wire Line
 Wire Wire Line
 	8800 2800 8800 2900
 Wire Wire Line
+	10350 2700 10400 2700
+Wire Wire Line
 	9150 3300 9250 3300
 Wire Wire Line
 	8750 3400 8750 3500
+Wire Wire Line
+	10300 3300 10350 3300
 Wire Wire Line
 	9150 3950 9250 3950
 Wire Wire Line
 	8550 4050 8550 4150
 Wire Wire Line
+	10300 3950 10350 3950
+Wire Wire Line
 	9150 4600 9250 4600
 Wire Wire Line
 	8550 4700 8550 4800
+Wire Wire Line
+	10300 4600 10350 4600
 Wire Wire Line
 	6150 4900 6250 4900
 Wire Wire Line
 	5550 5000 5550 5100
 Wire Wire Line
+	7300 4900 7350 4900
+Wire Wire Line
 	9150 5250 9250 5250
 Wire Wire Line
 	8550 5350 8550 5450
+Wire Wire Line
+	10300 5250 10350 5250
 Wire Wire Line
 	6150 5650 6250 5650
 Wire Wire Line
 	5550 5750 5550 5850
 Wire Wire Line
-	10250 2700 10400 2700
-Wire Wire Line
-	10200 3300 10350 3300
-Wire Wire Line
-	10200 3950 10350 3950
-Wire Wire Line
-	10200 4600 10350 4600
-Wire Wire Line
-	7200 4900 7350 4900
-Wire Wire Line
-	10200 5250 10350 5250
-Wire Wire Line
-	7200 5650 7350 5650
+	7300 5650 7350 5650
 $EndSCHEMATC

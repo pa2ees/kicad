@@ -1,4 +1,4 @@
-update=Sat 15 Dec 2018 04:52:34 PM MST
+update=3/17/2018 1:58:32 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,6 +25,22 @@ version=1
 NetIExt=net
 [general]
 version=1
+[eeschema]
+version=1
+LibDir=C:/_projects/kicad/Libraries;C:/Program Files/KiCad/share/kicad/library
+[eeschema/libraries]
+LibName1=connectors
+LibName2=diodes
+LibName3=mechanical
+LibName4=microchip_mcu
+LibName5=misc
+LibName6=passives
+LibName7=switches
+LibName8=transistors
+LibName9=IC_Interface
+LibName10=power
+LibName11=memory
+LibName12=regulators
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -35,6 +51,3 @@ NetFmtName=
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=60
-[eeschema]
-version=1
-LibDir=

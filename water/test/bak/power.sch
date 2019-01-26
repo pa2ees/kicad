@@ -17,7 +17,7 @@ $EndDescr
 Text HLabel 1050 3800 0    60   Input ~ 0
 VIN_AC
 $Comp
-L TLV1117_3.3V U?
+L test-rescue:TLV1117_3.3V U?
 U 1 1 5A19F674
 P 9100 1850
 AR Path="/5A1A1D1F/5A19F674" Ref="U?"  Part="1" 
@@ -30,7 +30,7 @@ F 3 "" H 9100 1850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR?
+L power:+5V #PWR?
 U 1 1 5A19F6EA
 P 8800 1200
 AR Path="/5A1A1D1F/5A19F6EA" Ref="#PWR?"  Part="1" 
@@ -43,12 +43,11 @@ F 3 "" H 8800 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR?
+L power:+3.3V #PWR?
 U 1 1 5A19F700
 P 9850 1200
 AR Path="/5A1A1D1F/5A19F700" Ref="#PWR?"  Part="1" 
 AR Path="/5A200607/5A19F700" Ref="#PWR93"  Part="1" 
-AR Path="/5A19F700" Ref="#PWR93"  Part="1" 
 F 0 "#PWR93" H 9850 1050 50  0001 C CNN
 F 1 "+3.3V" H 9850 1340 50  0000 C CNN
 F 2 "" H 9850 1200 50  0001 C CNN
@@ -68,7 +67,7 @@ Wire Wire Line
 Wire Wire Line
 	8800 1200 8800 1850
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 5A19F726
 P 9300 2400
 AR Path="/5A1A1D1F/5A19F726" Ref="#PWR?"  Part="1" 
@@ -89,11 +88,12 @@ Wire Wire Line
 	9600 1300 9850 1300
 Connection ~ 9850 1300
 $Comp
-L CAP_ELEC C?
+L test-rescue:CAP_ELEC C?
 U 1 1 5A1A0108
 P 10200 1400
 AR Path="/5A1A1D1F/5A1A0108" Ref="C?"  Part="1" 
 AR Path="/5A200607/5A1A0108" Ref="C21"  Part="1" 
+AR Path="/5A1A0108" Ref="C21"  Part="1" 
 F 0 "C21" H 10250 1350 60  0000 C CNN
 F 1 "CAP_ELEC" H 10400 1250 60  0001 C CNN
 F 2 "passives:CAP_ELEC_5mm" H 10200 1400 60  0001 C CNN
@@ -105,12 +105,11 @@ F 6 "100uF" H 10600 1450 39  0000 C CNN "val"
 	0    1    1    0   
 $EndComp
 $Comp
-L +3.3V #PWR?
+L power:+3.3V #PWR?
 U 1 1 5A1A018B
 P 10200 1350
 AR Path="/5A1A1D1F/5A1A018B" Ref="#PWR?"  Part="1" 
 AR Path="/5A200607/5A1A018B" Ref="#PWR94"  Part="1" 
-AR Path="/5A1A018B" Ref="#PWR94"  Part="1" 
 F 0 "#PWR94" H 10200 1200 50  0001 C CNN
 F 1 "+3.3V" H 10200 1490 50  0000 C CNN
 F 2 "" H 10200 1350 50  0001 C CNN
@@ -119,7 +118,7 @@ F 3 "" H 10200 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 5A1A019F
 P 10200 1900
 AR Path="/5A1A1D1F/5A1A019F" Ref="#PWR?"  Part="1" 
@@ -136,11 +135,12 @@ Wire Wire Line
 Wire Wire Line
 	10200 1850 10200 1900
 $Comp
-L CAP_0805 C?
+L test-rescue:CAP_0805 C?
 U 1 1 5A1A0238
 P 10550 1650
 AR Path="/5A1A1D1F/5A1A0238" Ref="C?"  Part="1" 
 AR Path="/5A200607/5A1A0238" Ref="C23"  Part="1" 
+AR Path="/5A1A0238" Ref="C23"  Part="1" 
 F 0 "C23" H 10400 1600 40  0000 C CNN
 F 1 "CAP_0805" H 10550 1800 25  0001 C CNN
 F 2 "passives:C0805" H 10550 1500 25  0001 C CNN
@@ -150,12 +150,11 @@ F 4 "10uF" H 10700 1600 40  0000 C CNN "val"
 	0    1    1    0   
 $EndComp
 $Comp
-L +3.3V #PWR?
+L power:+3.3V #PWR?
 U 1 1 5A1A02DE
 P 10550 1350
 AR Path="/5A1A1D1F/5A1A02DE" Ref="#PWR?"  Part="1" 
 AR Path="/5A200607/5A1A02DE" Ref="#PWR96"  Part="1" 
-AR Path="/5A1A02DE" Ref="#PWR96"  Part="1" 
 F 0 "#PWR96" H 10550 1200 50  0001 C CNN
 F 1 "+3.3V" H 10550 1490 50  0000 C CNN
 F 2 "" H 10550 1350 50  0001 C CNN
@@ -164,7 +163,7 @@ F 3 "" H 10550 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 5A1A02E4
 P 10550 1900
 AR Path="/5A1A1D1F/5A1A02E4" Ref="#PWR?"  Part="1" 
@@ -181,11 +180,12 @@ Wire Wire Line
 Wire Wire Line
 	10550 1750 10550 1900
 $Comp
-L CAP_0805 C?
+L test-rescue:CAP_0805 C?
 U 1 1 5A1A04C5
 P 8550 1650
 AR Path="/5A1A1D1F/5A1A04C5" Ref="C?"  Part="1" 
 AR Path="/5A200607/5A1A04C5" Ref="C22"  Part="1" 
+AR Path="/5A1A04C5" Ref="C22"  Part="1" 
 F 0 "C22" H 8400 1600 40  0000 C CNN
 F 1 "CAP_0805" H 8550 1800 25  0001 C CNN
 F 2 "passives:C0805" H 8550 1500 25  0001 C CNN
@@ -195,7 +195,7 @@ F 4 "10uF" H 8700 1600 40  0000 C CNN "val"
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 5A1A04D1
 P 8550 1900
 AR Path="/5A1A1D1F/5A1A04D1" Ref="#PWR?"  Part="1" 
@@ -212,7 +212,7 @@ Wire Wire Line
 Wire Wire Line
 	8550 1750 8550 1900
 $Comp
-L +5V #PWR?
+L power:+5V #PWR?
 U 1 1 5A1A04E9
 P 8550 1350
 AR Path="/5A1A1D1F/5A1A04E9" Ref="#PWR?"  Part="1" 
@@ -225,11 +225,12 @@ F 3 "" H 8550 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CAP_ELEC C?
+L test-rescue:CAP_ELEC C?
 U 1 1 5A1A0877
 P 3150 4000
 AR Path="/5A1A1D1F/5A1A0877" Ref="C?"  Part="1" 
 AR Path="/5A200607/5A1A0877" Ref="C26"  Part="1" 
+AR Path="/5A1A0877" Ref="C26"  Part="1" 
 F 0 "C26" H 3200 3950 60  0000 C CNN
 F 1 "CAP_ELEC" H 3350 3850 60  0001 C CNN
 F 2 "passives:CAP_ELEC_10mm" H 3150 4000 60  0001 C CNN
@@ -261,7 +262,7 @@ Wire Wire Line
 Wire Wire Line
 	1600 4500 1750 4500
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 5A1A1967
 P 1600 4600
 AR Path="/5A1A1D1F/5A1A1967" Ref="#PWR?"  Part="1" 
@@ -286,7 +287,7 @@ Connection ~ 2350 3800
 Wire Wire Line
 	3150 3800 3150 4000
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 5A1A1C42
 P 3150 4550
 AR Path="/5A1A1D1F/5A1A1C42" Ref="#PWR?"  Part="1" 
@@ -301,11 +302,12 @@ $EndComp
 Wire Wire Line
 	3150 4550 3150 4450
 $Comp
-L Diode_SMB D?
+L test-rescue:Diode_SMB D?
 U 1 1 5A1A1D1F
 P 1950 3800
 AR Path="/5A1A1D1F/5A1A1D1F" Ref="D?"  Part="1" 
 AR Path="/5A200607/5A1A1D1F" Ref="D13"  Part="1" 
+AR Path="/5A1A1D1F" Ref="D13"  Part="1" 
 F 0 "D13" H 1800 3750 60  0000 C CNN
 F 1 "Diode_SMB" H 1950 3900 39  0000 C CNN
 F 2 "diodes:SMB" H 2050 3750 60  0001 C CNN
@@ -315,11 +317,12 @@ F 4 "{PN}" H 1900 3850 60  0001 C CNN "MFG_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode_SMB D?
+L test-rescue:Diode_SMB D?
 U 1 1 5A1A1E2B
 P 2350 4150
 AR Path="/5A1A1D1F/5A1A1E2B" Ref="D?"  Part="1" 
 AR Path="/5A200607/5A1A1E2B" Ref="D15"  Part="1" 
+AR Path="/5A1A1E2B" Ref="D15"  Part="1" 
 F 0 "D15" H 2200 4100 60  0000 C CNN
 F 1 "Diode_SMB" H 2350 4250 39  0000 C CNN
 F 2 "diodes:SMB" H 2450 4100 60  0001 C CNN
@@ -329,11 +332,12 @@ F 4 "{PN}" H 2300 4200 60  0001 C CNN "MFG_PN"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode_SMB D?
+L test-rescue:Diode_SMB D?
 U 1 1 5A1A1ED0
 P 1600 4100
 AR Path="/5A1A1D1F/5A1A1ED0" Ref="D?"  Part="1" 
 AR Path="/5A200607/5A1A1ED0" Ref="D14"  Part="1" 
+AR Path="/5A1A1ED0" Ref="D14"  Part="1" 
 F 0 "D14" H 1450 4050 60  0000 C CNN
 F 1 "Diode_SMB" H 1600 4200 39  0000 C CNN
 F 2 "diodes:SMB" H 1700 4050 60  0001 C CNN
@@ -343,11 +347,12 @@ F 4 "{PN}" H 1550 4150 60  0001 C CNN "MFG_PN"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode_SMB D?
+L test-rescue:Diode_SMB D?
 U 1 1 5A1A1F0F
 P 2000 4500
 AR Path="/5A1A1D1F/5A1A1F0F" Ref="D?"  Part="1" 
 AR Path="/5A200607/5A1A1F0F" Ref="D16"  Part="1" 
+AR Path="/5A1A1F0F" Ref="D16"  Part="1" 
 F 0 "D16" H 1850 4450 60  0000 C CNN
 F 1 "Diode_SMB" H 2000 4600 39  0000 C CNN
 F 2 "diodes:SMB" H 2100 4450 60  0001 C CNN
@@ -357,11 +362,12 @@ F 4 "{PN}" H 1950 4550 60  0001 C CNN "MFG_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CAP_ELEC C?
+L test-rescue:CAP_ELEC C?
 U 1 1 5A1A44A9
 P 4050 2700
 AR Path="/5A1A1D1F/5A1A44A9" Ref="C?"  Part="1" 
 AR Path="/5A200607/5A1A44A9" Ref="C25"  Part="1" 
+AR Path="/5A1A44A9" Ref="C25"  Part="1" 
 F 0 "C25" H 4100 2650 60  0000 C CNN
 F 1 "CAP_ELEC" H 4250 2550 60  0001 C CNN
 F 2 "passives:CAP_ELEC_10mm" H 4050 2700 60  0001 C CNN
@@ -373,7 +379,7 @@ F 6 "EEE-1EA471P" H 4050 2700 60  0001 C CNN "MFG_PN"
 	0    1    1    0   
 $EndComp
 $Comp
-L MC34063A_buck U?
+L test-rescue:MC34063A_buck U?
 U 1 1 5A1A4884
 P 4150 1600
 AR Path="/5A1A1D1F/5A1A4884" Ref="U?"  Part="1" 
@@ -409,7 +415,7 @@ Wire Wire Line
 Wire Wire Line
 	5600 1700 5550 1700
 $Comp
-L RES_0603 R?
+L test-rescue:RES_0603 R?
 U 1 1 5A1A4D49
 P 5150 2350
 AR Path="/5A1A1D1F/5A1A4D49" Ref="R?"  Part="1" 
@@ -424,7 +430,7 @@ F 5 "{PN}" H 5150 2500 60  0001 C CNN "MFG_PN"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L RES_0603 R?
+L test-rescue:RES_0603 R?
 U 1 1 5A1A4E2D
 P 4800 2150
 AR Path="/5A1A1D1F/5A1A4E2D" Ref="R?"  Part="1" 
@@ -450,7 +456,7 @@ Wire Wire Line
 Wire Wire Line
 	4050 2150 4050 2700
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 5A1A509B
 P 4050 1900
 AR Path="/5A1A1D1F/5A1A509B" Ref="#PWR?"  Part="1" 
@@ -465,7 +471,7 @@ $EndComp
 Wire Wire Line
 	4150 1900 4050 1900
 $Comp
-L Schottky_SMA D?
+L test-rescue:Schottky_SMA D?
 U 1 1 5A1A5154
 P 3100 2000
 AR Path="/5A1A1D1F/5A1A5154" Ref="D?"  Part="1" 
@@ -483,7 +489,7 @@ Wire Wire Line
 Wire Wire Line
 	3100 1700 3100 1800
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 5A1A54AE
 P 3100 2300
 AR Path="/5A1A1D1F/5A1A54AE" Ref="#PWR?"  Part="1" 
@@ -498,11 +504,12 @@ $EndComp
 Wire Wire Line
 	3100 2300 3100 2250
 $Comp
-L IND L?
+L test-rescue:IND L?
 U 1 1 5A1A7034
 P 3450 1900
 AR Path="/5A1A1D1F/5A1A7034" Ref="L?"  Part="1" 
 AR Path="/5A200607/5A1A7034" Ref="L1"  Part="1" 
+AR Path="/5A1A7034" Ref="L1"  Part="1" 
 F 0 "L1" H 3600 1950 60  0000 C CNN
 F 1 "IND" H 3800 1950 60  0001 C CNN
 F 2 "passives:SRR1260-221K" H 3450 1900 60  0001 C CNN
@@ -516,11 +523,12 @@ Wire Wire Line
 	3450 1900 3450 1700
 Connection ~ 3450 1700
 $Comp
-L CAP_0603 C?
+L test-rescue:CAP_0603 C?
 U 1 1 5A1A77D9
 P 3750 2050
 AR Path="/5A1A1D1F/5A1A77D9" Ref="C?"  Part="1" 
 AR Path="/5A200607/5A1A77D9" Ref="C24"  Part="1" 
+AR Path="/5A1A77D9" Ref="C24"  Part="1" 
 F 0 "C24" H 3600 2000 40  0000 C CNN
 F 1 "CAP_0603" H 3750 2200 25  0001 C CNN
 F 2 "passives:C0603" H 3750 1900 25  0001 C CNN
@@ -535,7 +543,7 @@ Wire Wire Line
 Wire Wire Line
 	3750 1800 3750 1900
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 5A1A78FC
 P 3750 2250
 AR Path="/5A1A1D1F/5A1A78FC" Ref="#PWR?"  Part="1" 
@@ -555,7 +563,7 @@ Wire Wire Line
 	3450 2550 4050 2550
 Connection ~ 4050 2550
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 5A1A7AE2
 P 4050 3250
 AR Path="/5A1A1D1F/5A1A7AE2" Ref="#PWR?"  Part="1" 
@@ -575,7 +583,7 @@ Wire Wire Line
 	4300 2650 4300 2600
 Connection ~ 4050 2650
 $Comp
-L +5V #PWR?
+L power:+5V #PWR?
 U 1 1 5A1A7C6A
 P 4300 2600
 AR Path="/5A1A1D1F/5A1A7C6A" Ref="#PWR?"  Part="1" 
@@ -588,7 +596,7 @@ F 3 "" H 4300 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 5A1A7DA7
 P 5150 2700
 AR Path="/5A1A1D1F/5A1A7DA7" Ref="#PWR?"  Part="1" 
@@ -604,11 +612,12 @@ Wire Wire Line
 	5150 2700 5150 2600
 Connection ~ 5600 1800
 $Comp
-L LED_0603 D?
+L test-rescue:LED_0603 D?
 U 1 1 5A1CECAF
 P 7750 1700
 AR Path="/5A1A1D1F/5A1CECAF" Ref="D?"  Part="1" 
 AR Path="/5A200607/5A1CECAF" Ref="D11"  Part="1" 
+AR Path="/5A1CECAF" Ref="D11"  Part="1" 
 F 0 "D11" H 7600 1650 60  0000 C CNN
 F 1 "LED_0603" H 7750 1850 60  0000 C CNN
 F 2 "diodes:D0603" H 7800 1600 60  0001 C CNN
@@ -618,7 +627,7 @@ F 4 "LTST-C191KGKT" H 7700 1750 60  0001 C CNN "MFG_PN"
 	0    1    1    0   
 $EndComp
 $Comp
-L RES_0603 R?
+L test-rescue:RES_0603 R?
 U 1 1 5A1CEDFF
 P 7750 2100
 AR Path="/5A1A1D1F/5A1CEDFF" Ref="R?"  Part="1" 
@@ -633,7 +642,7 @@ F 5 "RC0603JR-07470RL" H 7750 2250 60  0001 C CNN "MFG_PN"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L RES_0603 R?
+L test-rescue:RES_0603 R?
 U 1 1 5A1CEEAA
 P 10900 2100
 AR Path="/5A1A1D1F/5A1CEEAA" Ref="R?"  Part="1" 
@@ -650,7 +659,7 @@ $EndComp
 Wire Wire Line
 	7750 2000 7750 1900
 $Comp
-L +5V #PWR?
+L power:+5V #PWR?
 U 1 1 5A1CEFD3
 P 7750 1350
 AR Path="/5A1A1D1F/5A1CEFD3" Ref="#PWR?"  Part="1" 
@@ -663,12 +672,11 @@ F 3 "" H 7750 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR?
+L power:+3.3V #PWR?
 U 1 1 5A1CF020
 P 10900 1300
 AR Path="/5A1A1D1F/5A1CF020" Ref="#PWR?"  Part="1" 
 AR Path="/5A200607/5A1CF020" Ref="#PWR98"  Part="1" 
-AR Path="/5A1CF020" Ref="#PWR98"  Part="1" 
 F 0 "#PWR98" H 10900 1150 50  0001 C CNN
 F 1 "+3.3V" H 10900 1440 50  0000 C CNN
 F 2 "" H 10900 1300 50  0001 C CNN
@@ -681,7 +689,7 @@ Wire Wire Line
 Wire Wire Line
 	10900 2000 10900 1850
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 5A1CF126
 P 7750 2450
 AR Path="/5A1A1D1F/5A1CF126" Ref="#PWR?"  Part="1" 
@@ -694,7 +702,7 @@ F 3 "" H 7750 2450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 5A1CF173
 P 10900 2450
 AR Path="/5A1A1D1F/5A1CF173" Ref="#PWR?"  Part="1" 
@@ -713,7 +721,7 @@ Wire Wire Line
 Wire Wire Line
 	7750 1450 7750 1350
 $Comp
-L RES_0805 R?
+L test-rescue:RES_0805 R?
 U 1 1 5A1E06F7
 P 2750 5050
 AR Path="/5A1A1D1F/5A1E06F7" Ref="R?"  Part="1" 
@@ -728,7 +736,7 @@ F 5 "{PN}" H 2750 5200 60  0001 C CNN "MFG_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 5A1E077F
 P 3050 5100
 AR Path="/5A1A1D1F/5A1E077F" Ref="#PWR?"  Part="1" 
@@ -746,11 +754,12 @@ Wire Wire Line
 Wire Wire Line
 	3050 5050 3050 5100
 $Comp
-L LED_0603 D?
+L test-rescue:LED_0603 D?
 U 1 1 5A1FBE09
 P 10900 1650
 AR Path="/5A1A1D1F/5A1FBE09" Ref="D?"  Part="1" 
 AR Path="/5A200607/5A1FBE09" Ref="D10"  Part="1" 
+AR Path="/5A1FBE09" Ref="D10"  Part="1" 
 F 0 "D10" H 10750 1600 60  0000 C CNN
 F 1 "LED_0603" H 10900 1800 60  0000 C CNN
 F 2 "diodes:D0603" H 10950 1550 60  0001 C CNN
@@ -760,7 +769,7 @@ F 4 "LTST-C191KGKT" H 10850 1700 60  0001 C CNN "MFG_PN"
 	0    1    1    0   
 $EndComp
 $Comp
-L Diode_SMB D9
+L test-rescue:Diode_SMB D9
 U 1 1 5A20ECF4
 P 9350 1300
 F 0 "D9" H 9200 1250 60  0000 C CNN
@@ -772,7 +781,7 @@ F 4 "{PN}" H 9300 1350 60  0001 C CNN "MFG_PN"
 	-1   0    0    1   
 $EndComp
 $Comp
-L RES_0805 R40
+L test-rescue:RES_0805 R40
 U 1 1 5A238A20
 P 5300 1700
 F 0 "R40" H 5100 1650 40  0000 C CNN

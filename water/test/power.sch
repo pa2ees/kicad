@@ -1,18 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:connectors
-LIBS:diodes
-LIBS:mechanical
-LIBS:microchip_mcu
-LIBS:misc
-LIBS:passives
-LIBS:switches
-LIBS:transistors
-LIBS:IC_Interface
-LIBS:power
-LIBS:memory
-LIBS:regulators
+EESchema Schematic File Version 4
 LIBS:test-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -60,6 +48,7 @@ U 1 1 5A19F700
 P 9850 1200
 AR Path="/5A1A1D1F/5A19F700" Ref="#PWR?"  Part="1" 
 AR Path="/5A200607/5A19F700" Ref="#PWR93"  Part="1" 
+AR Path="/5A19F700" Ref="#PWR93"  Part="1" 
 F 0 "#PWR93" H 9850 1050 50  0001 C CNN
 F 1 "+3.3V" H 9850 1340 50  0000 C CNN
 F 2 "" H 9850 1200 50  0001 C CNN
@@ -121,6 +110,7 @@ U 1 1 5A1A018B
 P 10200 1350
 AR Path="/5A1A1D1F/5A1A018B" Ref="#PWR?"  Part="1" 
 AR Path="/5A200607/5A1A018B" Ref="#PWR94"  Part="1" 
+AR Path="/5A1A018B" Ref="#PWR94"  Part="1" 
 F 0 "#PWR94" H 10200 1200 50  0001 C CNN
 F 1 "+3.3V" H 10200 1490 50  0000 C CNN
 F 2 "" H 10200 1350 50  0001 C CNN
@@ -165,6 +155,7 @@ U 1 1 5A1A02DE
 P 10550 1350
 AR Path="/5A1A1D1F/5A1A02DE" Ref="#PWR?"  Part="1" 
 AR Path="/5A200607/5A1A02DE" Ref="#PWR96"  Part="1" 
+AR Path="/5A1A02DE" Ref="#PWR96"  Part="1" 
 F 0 "#PWR96" H 10550 1200 50  0001 C CNN
 F 1 "+3.3V" H 10550 1490 50  0000 C CNN
 F 2 "" H 10550 1350 50  0001 C CNN
@@ -677,6 +668,7 @@ U 1 1 5A1CF020
 P 10900 1300
 AR Path="/5A1A1D1F/5A1CF020" Ref="#PWR?"  Part="1" 
 AR Path="/5A200607/5A1CF020" Ref="#PWR98"  Part="1" 
+AR Path="/5A1CF020" Ref="#PWR98"  Part="1" 
 F 0 "#PWR98" H 10900 1150 50  0001 C CNN
 F 1 "+3.3V" H 10900 1440 50  0000 C CNN
 F 2 "" H 10900 1300 50  0001 C CNN
