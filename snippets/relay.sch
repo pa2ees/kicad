@@ -1,0 +1,199 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L switches:Relay-EC2-5NU U13
+U 1 1 5A1D1406
+P 1950 7100
+F 0 "U13" H 2100 7200 60  0000 C CNN
+F 1 "Relay-EC2-5NU" H 2275 6600 60  0000 C CNN
+F 2 "switches:EC2-5NU" H 1550 7100 60  0001 C CNN
+F 3 "" H 1950 7100 60  0001 C CNN
+F 4 "EC2-5NU" H 1750 7300 60  0001 C CNN "MFG_PN"
+	1    1950 7100
+	1    0    0    -1  
+$EndComp
+Text Label 1500 7400 0    60   ~ 0
+VIN_AC
+Text Label 2600 7400 0    60   ~ 0
+VIN_AC
+Text Label 1500 7500 0    60   ~ 0
+SW_24V_1
+Text Label 2600 7500 0    60   ~ 0
+SW_24V_2
+$Comp
+L power:+5V #PWR7
+U 1 1 5A1D257D
+P 1850 6450
+F 0 "#PWR7" H 1850 6300 50  0001 C CNN
+F 1 "+5V" H 1850 6590 50  0000 C CNN
+F 2 "" H 1850 6450 50  0001 C CNN
+F 3 "" H 1850 6450 50  0001 C CNN
+	1    1850 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L diodes:Schottky_SMA D6
+U 1 1 5A1D31B5
+P 2250 6850
+F 0 "D6" H 2100 6800 60  0000 C CNN
+F 1 "Schottky_SMA" H 2100 6950 30  0000 C CNN
+F 2 "diodes:SMA" H 2350 6800 60  0001 C CNN
+F 3 "" H 2100 6800 60  0000 C CNN
+F 4 "{PN}" H 2200 6900 60  0001 C CNN "MFG_PN"
+	1    2250 6850
+	-1   0    0    1   
+$EndComp
+$Comp
+L transistors:MOSFET-N Q4
+U 1 1 5A1D3904
+P 3000 7000
+F 0 "Q4" H 3000 6851 40  0000 R CNN
+F 1 "MOSFET-N" H 2900 7150 40  0000 C CNN
+F 2 "ICs:SOT-23-3-FET" H 2850 7100 29  0001 C CNN
+F 3 "" H 3000 7000 60  0000 C CNN
+F 4 "2N7002" H 3000 7000 60  0001 C CNN "MFG_PN"
+	1    3000 7000
+	0    -1   1    0   
+$EndComp
+Text Label 3550 6750 0    60   ~ 0
+Fill_SW
+$Comp
+L power:GND #PWR11
+U 1 1 5A1D4377
+P 3300 7200
+F 0 "#PWR11" H 3300 6950 50  0001 C CNN
+F 1 "GND" H 3300 7050 50  0000 C CNN
+F 2 "" H 3300 7200 50  0001 C CNN
+F 3 "" H 3300 7200 50  0001 C CNN
+	1    3300 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L passives:RES_0603 R32
+U 1 1 5A1D4948
+P 3350 6750
+F 0 "R32" H 3150 6800 40  0000 C CNN
+F 1 "RES_0603" H 3350 6850 25  0001 C CNN
+F 2 "passives:R0603" H 3350 6650 25  0001 C CNN
+F 3 "" H 3150 6600 60  0000 C CNN
+F 4 "100" H 3350 6800 40  0000 C CNN "val"
+	1    3350 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L passives:RES_0603 R31
+U 1 1 5A1D532C
+P 2500 6600
+F 0 "R31" H 2300 6650 40  0000 C CNN
+F 1 "RES_0603" H 2500 6700 25  0001 C CNN
+F 2 "passives:R0603" H 2500 6500 25  0001 C CNN
+F 3 "" H 2300 6450 60  0000 C CNN
+F 4 "470" H 2500 6650 40  0000 C CNN "val"
+F 5 "RC0603JR-07470RL" H 2500 6600 60  0001 C CNN "MFG_PN"
+	1    2500 6600
+	-1   0    0    1   
+$EndComp
+Text Label 1050 6650 0    60   ~ 0
+SW_24V_1
+Text Label 1050 6850 0    60   ~ 0
+SW_24V_2
+Text Label 1050 6750 0    60   ~ 0
+VIN_GND
+Text Label 1050 6950 0    60   ~ 0
+VIN_GND
+$Comp
+L connectors:term_block_4-pin J3
+U 1 1 5A1E2F9D
+P 950 6650
+F 0 "J3" H 1200 6750 60  0000 C CNN
+F 1 "term_block_4-pin" V 1200 6500 30  0000 C CNN
+F 2 "connectors:term_block_4-pin" H 1100 6650 60  0001 C CNN
+F 3 "" H 950 6650 60  0001 C CNN
+F 4 "{PN}" H 1300 6850 60  0001 C CNN "MFG_PN"
+	1    950  6650
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 7400 2550 7400
+Wire Wire Line
+	1500 7400 1950 7400
+Wire Wire Line
+	1500 7500 1950 7500
+Wire Wire Line
+	3100 7500 2550 7500
+Wire Wire Line
+	1850 7100 1950 7100
+Wire Wire Line
+	1850 6450 1850 6600
+Connection ~ 1850 6850
+Wire Wire Line
+	2550 7100 2700 7100
+Wire Wire Line
+	2700 7100 2700 6850
+Connection ~ 2700 7100
+Wire Wire Line
+	3050 6750 3050 6800
+Wire Wire Line
+	3200 7100 3300 7100
+Wire Wire Line
+	3300 7100 3300 7200
+Wire Wire Line
+	3900 6750 3450 6750
+Wire Wire Line
+	3100 6750 3050 6750
+Wire Wire Line
+	1900 6600 1850 6600
+Connection ~ 1850 6600
+Wire Wire Line
+	2350 6600 2400 6600
+Wire Wire Line
+	2750 6600 2800 6600
+Wire Wire Line
+	2800 6600 2800 6850
+Connection ~ 2700 6850
+Wire Wire Line
+	1500 6650 950  6650
+Wire Wire Line
+	1500 6750 950  6750
+Wire Wire Line
+	1500 6850 950  6850
+Wire Wire Line
+	1500 6950 950  6950
+$Comp
+L diodes:LED_0603 D5
+U 1 1 5A1FB158
+P 2150 6600
+F 0 "D5" H 2000 6550 60  0000 C CNN
+F 1 "LED_0603" H 2150 6750 60  0000 C CNN
+F 2 "diodes:D0603" H 2200 6500 60  0001 C CNN
+F 3 "" H 2000 6550 60  0000 C CNN
+F 4 "LTST-C191KGKT" H 2100 6650 60  0001 C CNN "MFG_PN"
+	1    2150 6600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 6850 1850 7100
+Wire Wire Line
+	2700 7100 2800 7100
+Wire Wire Line
+	1850 6600 1850 6850
+Wire Wire Line
+	2700 6850 2800 6850
+Wire Wire Line
+	2400 6850 2700 6850
+Wire Wire Line
+	1850 6850 2150 6850
+$EndSCHEMATC

@@ -1,0 +1,337 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L connectors:HEADER_1X6 J1
+U 1 1 5A18CA41
+P 3700 5800
+F 0 "J1" H 3500 5950 60  0000 C CNN
+F 1 "HEADER_1X6" V 3600 5550 60  0000 C CNN
+F 2 "connectors:Header_6-pin_100mil" H 3700 5150 60  0001 C CNN
+F 3 "" H 3700 5800 60  0000 C CNN
+	1    3700 5800
+	-1   0    0    -1  
+$EndComp
+Text Label 3200 5800 0    60   ~ 0
+MCLR
+$Comp
+L power:GND #PWR32
+U 1 1 5A18E102
+P 2900 6100
+F 0 "#PWR32" H 2900 5850 50  0001 C CNN
+F 1 "GND" H 2900 5950 50  0000 C CNN
+F 2 "" H 2900 6100 50  0001 C CNN
+F 3 "" H 2900 6100 50  0001 C CNN
+	1    2900 6100
+	1    0    0    -1  
+$EndComp
+Text Label 3100 6100 0    60   ~ 0
+ICSPDAT
+Text Label 3100 6200 0    60   ~ 0
+ICSPCLK
+Text Label 3600 6700 0    60   ~ 0
+ICSPDAT
+Text Label 3600 6800 0    60   ~ 0
+ICSPCLK
+Text Label 850  6900 0    60   ~ 0
+MCLR
+Text Label 850  7000 0    60   ~ 0
+PIC_RX
+Text Label 850  7100 0    60   ~ 0
+PIC_TX
+$Comp
+L power:GND #PWR14
+U 1 1 5A18F9C8
+P 900 6200
+F 0 "#PWR14" H 900 5950 50  0001 C CNN
+F 1 "GND" H 900 6050 50  0000 C CNN
+F 2 "" H 900 6200 50  0001 C CNN
+F 3 "" H 900 6200 50  0001 C CNN
+	1    900  6200
+	1    0    0    -1  
+$EndComp
+Text Label 3050 7300 0    60   ~ 0
+MISO
+Text Label 3050 7500 0    60   ~ 0
+SCLK
+Text Label 850  7400 0    60   ~ 0
+MOSI
+Text Label 850  7300 0    60   ~ 0
+nSPI_CS
+Text Label 600  6800 0    60   ~ 0
+V_TankLevel
+Text Label 1050 5850 0    60   ~ 0
+MCLR
+$Comp
+L power:GND #PWR23
+U 1 1 5A1914D7
+P 2400 6050
+F 0 "#PWR23" H 2400 5800 50  0001 C CNN
+F 1 "GND" H 2400 5900 50  0000 C CNN
+F 2 "" H 2400 6050 50  0001 C CNN
+F 3 "" H 2400 6050 50  0001 C CNN
+	1    2400 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L passives:RES_0603 R11
+U 1 1 5A191A26
+P 3400 6700
+F 0 "R11" H 3200 6750 40  0000 C CNN
+F 1 "RES_0603" H 3400 6800 25  0001 C CNN
+F 2 "passives:R0603" H 3400 6600 25  0001 C CNN
+F 3 "" H 3200 6550 60  0000 C CNN
+F 4 "0 Ohm" H 3400 6750 40  0000 C CNN "val"
+	1    3400 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L passives:RES_0603 R12
+U 1 1 5A191B85
+P 3400 6800
+F 0 "R12" H 3200 6850 40  0000 C CNN
+F 1 "RES_0603" H 3400 6900 25  0001 C CNN
+F 2 "passives:R0603" H 3400 6700 25  0001 C CNN
+F 3 "" H 3200 6650 60  0000 C CNN
+F 4 "0 Ohm" H 3400 6850 40  0000 C CNN "val"
+	1    3400 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L passives:RES_0603 R5
+U 1 1 5A192C34
+P 2250 5850
+F 0 "R5" H 2050 5900 40  0000 C CNN
+F 1 "RES_0603" H 2250 5950 25  0001 C CNN
+F 2 "passives:R0603" H 2250 5750 25  0001 C CNN
+F 3 "" H 2050 5700 60  0000 C CNN
+F 4 "10k" H 2250 5900 40  0000 C CNN "val"
+	1    2250 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L passives:CAP_0603 C1
+U 1 1 5A193A7B
+P 900 5950
+F 0 "C1" H 750 5900 40  0000 C CNN
+F 1 "CAP_0603" H 900 6100 25  0001 C CNN
+F 2 "passives:C0603" H 900 5800 25  0001 C CNN
+F 3 "" H 700 5800 60  0000 C CNN
+F 4 "0.1uF" H 1050 5900 40  0000 C CNN "val"
+	1    900  5950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L passives:CAP_0603 C2
+U 1 1 5A193F1F
+P 2050 6050
+F 0 "C2" H 1900 6000 40  0000 C CNN
+F 1 "CAP_0603" H 2050 6200 25  0001 C CNN
+F 2 "passives:C0603" H 2050 5900 25  0001 C CNN
+F 3 "" H 1850 5900 60  0000 C CNN
+F 4 "0.1uF" H 2200 6000 40  0000 C CNN "val"
+	1    2050 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L microchip_mcu:PIC16F1829_SOIC U3
+U 1 1 5A194ADF
+P 1400 6600
+F 0 "U3" H 1500 6700 60  0000 C CNN
+F 1 "PIC16F1829_SOIC" H 2400 5600 60  0000 C CNN
+F 2 "ICs:SO-20_300" H 1600 5600 60  0001 C CNN
+F 3 "" H 1400 6600 60  0000 C CNN
+	1    1400 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR25
+U 1 1 5A194C9F
+P 3100 6500
+F 0 "#PWR25" H 3100 6250 50  0001 C CNN
+F 1 "GND" H 3100 6350 50  0000 C CNN
+F 2 "" H 3100 6500 50  0001 C CNN
+F 3 "" H 3100 6500 50  0001 C CNN
+	1    3100 6500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR31
+U 1 1 5A19FABC
+P 2700 5700
+F 0 "#PWR31" H 2700 5550 50  0001 C CNN
+F 1 "+3.3V" H 2700 5840 50  0000 C CNN
+F 2 "" H 2700 5700 50  0001 C CNN
+F 3 "" H 2700 5700 50  0001 C CNN
+	1    2700 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR24
+U 1 1 5A19FBCA
+P 2450 5800
+F 0 "#PWR24" H 2450 5650 50  0001 C CNN
+F 1 "+3.3V" H 2450 5940 50  0000 C CNN
+F 2 "" H 2450 5800 50  0001 C CNN
+F 3 "" H 2450 5800 50  0001 C CNN
+	1    2450 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR13
+U 1 1 5A19FCC7
+P 900 5700
+F 0 "#PWR13" H 900 5550 50  0001 C CNN
+F 1 "+3.3V" H 900 5840 50  0000 C CNN
+F 2 "" H 900 5700 50  0001 C CNN
+F 3 "" H 900 5700 50  0001 C CNN
+	1    900  5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR12
+U 1 1 5A19FD2C
+P 900 6600
+F 0 "#PWR12" H 900 6450 50  0001 C CNN
+F 1 "+3.3V" H 900 6740 50  0000 C CNN
+F 2 "" H 900 6600 50  0001 C CNN
+F 3 "" H 900 6600 50  0001 C CNN
+	1    900  6600
+	1    0    0    -1  
+$EndComp
+Text Label 600  6700 0    60   ~ 0
+V_Temp
+$Comp
+L diodes:Schottky_SMA D1
+U 1 1 5A1D2C34
+P 1550 5850
+F 0 "D1" H 1400 5800 60  0000 C CNN
+F 1 "Schottky_SMA" H 1550 6000 30  0000 C CNN
+F 2 "diodes:SMA" H 1650 5800 60  0001 C CNN
+F 3 "" H 1400 5800 60  0000 C CNN
+F 4 "{PN}" H 1500 5900 60  0001 C CNN "MFG_PN"
+	1    1550 5850
+	-1   0    0    1   
+$EndComp
+Text Label 850  7200 0    60   ~ 0
+Fill_SW
+Text Label 3050 7200 0    60   ~ 0
+Pump_SW
+Wire Wire Line
+	1200 6600 900  6600
+Wire Wire Line
+	3500 5900 3150 5900
+Wire Wire Line
+	3150 5800 3500 5800
+Wire Wire Line
+	3100 6100 3500 6100
+Wire Wire Line
+	3100 6200 3500 6200
+Wire Wire Line
+	2900 6100 2900 6000
+Wire Wire Line
+	2900 6000 3500 6000
+Wire Wire Line
+	4000 6800 3500 6800
+Wire Wire Line
+	3000 6700 3150 6700
+Wire Wire Line
+	3000 6800 3150 6800
+Wire Wire Line
+	850  6900 1200 6900
+Wire Wire Line
+	850  7500 1200 7500
+Wire Wire Line
+	3400 7400 3000 7400
+Wire Wire Line
+	900  6200 900  6100
+Wire Wire Line
+	900  5850 900  5700
+Wire Wire Line
+	850  7400 1200 7400
+Wire Wire Line
+	3400 7300 3000 7300
+Wire Wire Line
+	3400 7500 3000 7500
+Wire Wire Line
+	1900 6050 1900 5850
+Wire Wire Line
+	2350 5850 2450 5850
+Wire Wire Line
+	2450 5850 2450 5800
+Connection ~ 1900 5850
+Wire Wire Line
+	3000 6600 3050 6600
+Wire Wire Line
+	3050 6600 3050 6500
+Wire Wire Line
+	3050 6500 3100 6500
+Wire Wire Line
+	2150 6050 2400 6050
+Wire Wire Line
+	4000 6700 3500 6700
+$Comp
+L passives:RES_0603 R6
+U 1 1 5A1E783D
+P 3050 5900
+F 0 "R6" H 2850 5950 40  0000 C CNN
+F 1 "RES_0603" H 3050 6000 25  0001 C CNN
+F 2 "passives:R0603" H 3050 5800 25  0001 C CNN
+F 3 "" H 2850 5750 60  0000 C CNN
+F 4 "0 Ohm" H 3050 5950 40  0000 C CNN "val"
+	1    3050 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 5900 2800 5900
+Wire Wire Line
+	600  6700 1200 6700
+Wire Wire Line
+	600  6800 1200 6800
+Wire Wire Line
+	850  7000 1200 7000
+Wire Wire Line
+	1200 7100 850  7100
+Text Label 3050 7400 0    60   ~ 0
+SDA
+Text Label 850  7500 0    60   ~ 0
+SCL
+Text Label 3050 7000 0    60   ~ 0
+TX_EN_3V3
+Text Label 3050 7100 0    60   ~ 0
+nRX_EN_3V3
+Wire Wire Line
+	3600 7200 3000 7200
+Wire Wire Line
+	3600 7100 3000 7100
+Wire Wire Line
+	3600 7000 3000 7000
+Wire Wire Line
+	850  7200 1200 7200
+Wire Wire Line
+	850  7300 1200 7300
+Text Label 3050 6900 0    60   ~ 0
+GPIO
+Wire Wire Line
+	3300 6900 3000 6900
+Wire Wire Line
+	2700 5900 2700 5700
+Wire Wire Line
+	1900 5850 2000 5850
+Wire Wire Line
+	1050 5850 1450 5850
+Wire Wire Line
+	1700 5850 1900 5850
+$EndSCHEMATC
