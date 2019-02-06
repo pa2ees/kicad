@@ -1,0 +1,6 @@
+New voltage regulator: MP2456 (digikey: 1589-1894-1-ND, mouser: 946-MP2456GJ-Z)
+new inductor for regulator: CLF5030NIT-100M-D (digikey:  445-174699-1-ND, mouser: 810-CLF5030NIT100MD)
+boost diode NOT NEEDED: 1N4148WS-7-F (digikey: 1N4148WS-FDITR-ND, mouser: 621-1N4148WS-F)
+schottky diode: DFLS160 (digikey: DFLS160DICT-ND, mouser: 621-DFLS160-F)
+4.7uF cap on input (probably more for bulk capacitance to smooth out ac input, but only like 10uF)
+10uF cap on output
