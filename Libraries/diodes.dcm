@@ -8,6 +8,14 @@ $CMP Diode_SMB
 D Jelly Bean Surface Mount Diode, 1A 1.1Vf
 $ENDCMP
 #
+$CMP Diode_SOD123
+D Jelly Bean Surface Mount Diode, 1A 1.1Vf
+$ENDCMP
+#
+$CMP Diode_SOD323
+D Jelly Bean Surface Mount Diode, 1A 1.1Vf
+$ENDCMP
+#
 $CMP LED_0402
 D Jelly Bean Surface Mount Diode, 1A 1.1Vf
 $ENDCMP
@@ -32,11 +40,27 @@ $CMP Schottky_SMB
 D Jelly Bean Surface Mount Diode, 1A 1.1Vf
 $ENDCMP
 #
+$CMP Schottky_SOD123
+D Jelly Bean Surface Mount Diode, 1A 1.1Vf
+$ENDCMP
+#
+$CMP Schottky_SOD323
+D Jelly Bean Surface Mount Diode, 1A 1.1Vf
+$ENDCMP
+#
 $CMP Zener_SMA
 D Jelly Bean Surface Mount Diode, 1A 1.1Vf
 $ENDCMP
 #
 $CMP Zener_SMB
+D Jelly Bean Surface Mount Diode, 1A 1.1Vf
+$ENDCMP
+#
+$CMP Zener_SOD123
+D Jelly Bean Surface Mount Diode, 1A 1.1Vf
+$ENDCMP
+#
+$CMP Zener_SOD323
 D Jelly Bean Surface Mount Diode, 1A 1.1Vf
 $ENDCMP
 #
