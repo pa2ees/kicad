@@ -164,7 +164,7 @@
       <value>Schottky_SOD123</value>
       <footprint>diodes:SOD123</footprint>
       <fields>
-        <field name="MFG_PN">{PN}</field>
+        <field name="MFG_PN">DFLS160-7</field>
       </fields>
       <libsource lib="diodes" part="Schottky_SOD123" description="Jelly Bean Surface Mount Diode, 1A 1.1Vf"/>
       <sheetpath names="/" tstamps="/"/>
@@ -243,6 +243,9 @@
     <comp ref="U6">
       <value>MPX5100</value>
       <footprint>ICs:MPX5100</footprint>
+      <fields>
+        <field name="MFG_PN">MPXV5100DP</field>
+      </fields>
       <libsource lib="misc" part="MPX5100" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C5D0D0F</tstamp>
@@ -425,7 +428,7 @@
       <value>Schottky_SOD123</value>
       <footprint>diodes:SOD123</footprint>
       <fields>
-        <field name="MFG_PN">{PN}</field>
+        <field name="MFG_PN">DFLS160-7</field>
       </fields>
       <libsource lib="diodes" part="Schottky_SOD123" description="Jelly Bean Surface Mount Diode, 1A 1.1Vf"/>
       <sheetpath names="/power/" tstamps="/5C4E577C/"/>
@@ -435,7 +438,7 @@
       <value>CAP_ELEC</value>
       <footprint>passives:CAP_ELEC_5mm</footprint>
       <fields>
-        <field name="MFG_PN">{PN}</field>
+        <field name="MFG_PN">UCM1H470MCL1GS</field>
         <field name="Polarity">+</field>
         <field name="val">47uF</field>
       </fields>
@@ -512,7 +515,7 @@
       <value>IND</value>
       <footprint>passives:PWR_IND_5.3x5</footprint>
       <fields>
-        <field name="MFG_PN">{PN}</field>
+        <field name="MFG_PN">CLF5030NIT-100M-D</field>
         <field name="val">10uH</field>
       </fields>
       <libsource lib="passives" part="IND" description=""/>
@@ -522,7 +525,10 @@
     <comp ref="U4">
       <value>TLV1117_3.3V</value>
       <footprint>ICs:SOT-223</footprint>
-      <libsource lib="LDOs" part="TLV1117_3.3V" description=""/>
+      <fields>
+        <field name="MFG_PN">TLV1117-33CDCYR</field>
+      </fields>
+      <libsource lib="regulators" part="TLV1117_3.3V" description=""/>
       <sheetpath names="/power/" tstamps="/5C4E577C/"/>
       <tstamp>5A19F674</tstamp>
     </comp>
@@ -592,7 +598,7 @@
       <value>Diode_SOD323</value>
       <footprint>diodes:SOD323</footprint>
       <fields>
-        <field name="MFG_PN">{PN}</field>
+        <field name="MFG_PN">BAS16HT1G</field>
       </fields>
       <libsource lib="diodes" part="Diode_SOD323" description="Jelly Bean Surface Mount Diode, 1A 1.1Vf"/>
       <sheetpath names="/power/" tstamps="/5C4E577C/"/>
@@ -816,7 +822,7 @@
       <value>Zener_SOD323</value>
       <footprint>diodes:SOD323</footprint>
       <fields>
-        <field name="MFG_PN">{PN}</field>
+        <field name="MFG_PN">DF2B7AE,H3F</field>
       </fields>
       <libsource lib="diodes" part="Zener_SOD323" description="Jelly Bean Surface Mount Diode, 1A 1.1Vf"/>
       <sheetpath names="/transceiver/" tstamps="/5C53EF27/"/>
@@ -836,7 +842,7 @@
       <value>Zener_SOD323</value>
       <footprint>diodes:SOD323</footprint>
       <fields>
-        <field name="MFG_PN">{PN}</field>
+        <field name="MFG_PN">DF2B7AE,H3F</field>
       </fields>
       <libsource lib="diodes" part="Zener_SOD323" description="Jelly Bean Surface Mount Diode, 1A 1.1Vf"/>
       <sheetpath names="/transceiver/" tstamps="/5C53EF27/"/>
@@ -846,7 +852,7 @@
       <value>Schottky_SOD323</value>
       <footprint>diodes:SOD323</footprint>
       <fields>
-        <field name="MFG_PN">{PN}</field>
+        <field name="MFG_PN">NSR0530HT1G</field>
       </fields>
       <libsource lib="diodes" part="Schottky_SOD323" description="Jelly Bean Surface Mount Diode, 1A 1.1Vf"/>
       <sheetpath names="/transceiver/" tstamps="/5C53EF27/"/>
@@ -856,7 +862,7 @@
       <value>Diode_SOD323</value>
       <footprint>diodes:SOD323</footprint>
       <fields>
-        <field name="MFG_PN">{PN}</field>
+        <field name="MFG_PN">BAS16HT1G</field>
       </fields>
       <libsource lib="diodes" part="Diode_SOD323" description="Jelly Bean Surface Mount Diode, 1A 1.1Vf"/>
       <sheetpath names="/transceiver/" tstamps="/5C53EF27/"/>
@@ -877,7 +883,7 @@
       <value>Schottky_SOD323</value>
       <footprint>diodes:SOD323</footprint>
       <fields>
-        <field name="MFG_PN">{PN}</field>
+        <field name="MFG_PN">NSR0530HT1G</field>
       </fields>
       <libsource lib="diodes" part="Schottky_SOD323" description="Jelly Bean Surface Mount Diode, 1A 1.1Vf"/>
       <sheetpath names="/transceiver/" tstamps="/5C53EF27/"/>
@@ -898,22 +904,6 @@
         <pin num="3" name="GND" type="input"/>
         <pin num="4" name="Y" type="input"/>
         <pin num="5" name="VCC" type="input"/>
-      </pins>
-    </libpart>
-    <libpart lib="LDOs" part="TLV1117_3.3V">
-      <footprints>
-        <fp>SOT-223</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">TLV1117_3.3V</field>
-        <field name="Footprint">SOT-223</field>
-      </fields>
-      <pins>
-        <pin num="1" name="GND" type="passive"/>
-        <pin num="2" name="Vout" type="power_out"/>
-        <pin num="3" name="Vin" type="power_in"/>
-        <pin num="4" name="Tab" type="power_out"/>
       </pins>
     </libpart>
     <libpart lib="connectors" part="HEADER_1X6">
@@ -1058,6 +1048,7 @@
         <field name="Reference">U</field>
         <field name="Value">MPX5100</field>
         <field name="Footprint">ICs:MPX5100</field>
+        <field name="MFG_PN">MPXV5100DP</field>
       </fields>
       <pins>
         <pin num="1" name="NC" type="input"/>
@@ -1172,6 +1163,23 @@
         <pin num="6" name="SW" type="input"/>
       </pins>
     </libpart>
+    <libpart lib="regulators" part="TLV1117_3.3V">
+      <footprints>
+        <fp>SOT-223</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TLV1117_3.3V</field>
+        <field name="Footprint">ICs:SOT-223</field>
+        <field name="MFG_PN">TLV1117-33CDCYR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="Vout" type="power_out"/>
+        <pin num="3" name="Vin" type="power_in"/>
+        <pin num="4" name="Tab" type="power_out"/>
+      </pins>
+    </libpart>
     <libpart lib="switches" part="Opto-Triac-FODM30XX">
       <fields>
         <field name="Reference">OT</field>
@@ -1217,9 +1225,6 @@
   <libraries>
     <library logical="ICs">
       <uri>/home/erik/projects/kicad/Libraries/ICs.lib</uri>
-    </library>
-    <library logical="LDOs">
-      <uri>/home/erik/projects/kicad/Libraries/LDOs.lib</uri>
     </library>
     <library logical="connectors">
       <uri>/home/erik/projects/kicad/Libraries/connectors.lib</uri>
