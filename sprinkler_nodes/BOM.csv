@@ -1,0 +1,43 @@
+Part,Value,Designators,Manufacturer Part Number,Footprint,Part Value,Library
+CAP_0603,.05uF,"C20, C19",{PN},C0603,CAP_0603,passives
+CAP_0603,0.1uF,"C1, C4, C2, C15",,passives:C0603,CAP_0603,passives
+CAP_0603,0.1uF,"C3, C6",{PN},C0603,CAP_0603,passives
+CAP_0603,1uF,"C11, C17, C13, C14, C12",{PN},passives:C0603,CAP_0603,passives
+CAP_0603,5nF,C16,{PN},passives:C0603,CAP_0603,passives
+CAP_0603,80pF,C18,{PN},passives:C0603,CAP_0603,passives
+CAP_0805,10uF,C8,{PN},C0805,CAP_0805,passives
+CAP_0805,10uF,"C10, C9",,passives:C0805,CAP_0805,passives
+CAP_0805,4.7uF,C7,{PN},C0805,CAP_0805,passives
+CAP_ELEC,47uF,C5,UCM1H470MCL1GS,passives:CAP_ELEC_5mm,CAP_ELEC,passives
+Diode_SOD323,,"D5, D10",BAS16HT1G,diodes:SOD323,Diode_SOD323,diodes
+HEADER_1X6,,J3,,connectors:Header_6-pin_100mil,HEADER_1X6,connectors
+IND,10uH,L1,CLF5030NIT-100M-D,passives:PWR_IND_5.3x5,IND,passives
+LED_0603,,"D1, D12, D13, D14, D4, D6",LTST-C191KGKT,diodes:D0603,LED_0603,diodes
+MD5S_Diode_Bridge,,BR1,MD5S,diodes:MD5S,MD5S_Diode_Bridge,diodes
+MP2456,,U3,MP2456GJ,ICs:SOT-23-6,MP2456,regulators
+MPX5100,,U6,MPXV5100DP,ICs:MPX5100,MPX5100,misc
+NC7SZ125,,U5,NC7SZ125M5X,ICs:SOT-23-5,NC7SZ125,ICs
+NPN,,"Q1, Q2",{PN},ICs:SOT-23-3,NPN,transistors
+Opto-Triac-FODM30XX,,OT1,FODM3012-NF098,ICs:FODM30XX,Opto-Triac-FODM30XX,switches
+PIC16F1829_SOIC,,U1,,ICs:SO-20_300,PIC16F1829_SOIC,microchip_mcu
+RES_0603,0 Ohm,"R27, R26, R4, R3, R24, R25, R28, R29, R19",RC0603JR-07470RL,passives:R0603,RES_0603,passives
+RES_0603,100k,"R14, R13",{PN},passives:R0603,RES_0603,passives
+RES_0603,10k,"R5, R20, R18",,passives:R0603,RES_0603,passives
+RES_0603,124k,R9,{PN},R0603,RES_0603,passives
+RES_0603,1k,R22,{PN},passives:R0603,RES_0603,passives
+RES_0603,23.7k,R10,{PN},R0603,RES_0603,passives
+RES_0603,250,R17,{PN},passives:R0603,RES_0603,passives
+RES_0603,280,R1,,passives:R0603,RES_0603,passives
+RES_0603,39,R30,RC0603JR-07470RL,passives:R0603,RES_0603,passives
+RES_0603,470,"R2, R6, R7, R8, R32, R31, R11, R12",RC0603JR-07470RL,passives:R0603,RES_0603,passives
+RES_0603,50,R15,,passives:R0603,RES_0603,passives
+RES_0603,500k,R23,{PN},R0603,RES_0603,passives
+RES_0603,50k,R16,{PN},passives:R0603,RES_0603,passives
+RES_0603,5k,R21,{PN},passives:R0603,RES_0603,passives
+Schottky_SOD123,,"D2, D3",DFLS160-7,diodes:SOD123,Schottky_SOD123,diodes
+Schottky_SOD323,,"D8, D11",NSR0530HT1G,diodes:SOD323,Schottky_SOD323,diodes
+TLV1117_3.3V,,U4,TLV1117-33CDCYR,ICs:SOT-223,TLV1117_3.3V,regulators
+Temp_SOT23-3,,U2,MCP9700T,ICs:SOT-23-3,Temp_SOT23-3,misc
+Triac,,Q3,L4N3RP,ICs:Triode SMB-3,Triac,transistors
+Zener_SOD323,,"D9, D7","DF2B7AE,H3F",diodes:SOD323,Zener_SOD323,diodes
+term_block_4-pin,,"J1, J2",{PN},connectors:term_block_4-pin,term_block_4-pin,connectors
