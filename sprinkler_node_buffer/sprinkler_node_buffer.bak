@@ -1,0 +1,176 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L diodes:Zener_SOD123 D?
+U 1 1 5CD0F882
+P 3200 2100
+F 0 "D?" V 3213 1997 40  0000 R CNN
+F 1 "Zener_SOD123" V 3137 1997 40  0000 R CNN
+F 2 "diodes:SOD123" H 3300 2050 60  0001 C CNN
+F 3 "" H 3050 2050 60  0000 C CNN
+F 4 "{PN}" H 3150 2150 60  0001 C CNN "MFG_PN"
+	1    3200 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L connectors:term_block_4-pin J?
+U 1 1 5CD0F9AB
+P 1650 1600
+F 0 "J?" H 1794 1801 60  0000 C CNN
+F 1 "term_block_4-pin" H 1794 1718 30  0000 C CNN
+F 2 "connectors:term_block_4-pin" H 1800 1600 60  0001 C CNN
+F 3 "" H 1650 1600 60  0001 C CNN
+F 4 "{PN}" H 2000 1800 60  0001 C CNN "MFG_PN"
+	1    1650 1600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L connectors:term_block_4-pin J?
+U 1 1 5CD0FA2B
+P 1650 2300
+F 0 "J?" H 1794 2501 60  0000 C CNN
+F 1 "term_block_4-pin" H 1794 2418 30  0000 C CNN
+F 2 "connectors:term_block_4-pin" H 1800 2300 60  0001 C CNN
+F 3 "" H 1650 2300 60  0001 C CNN
+F 4 "{PN}" H 2000 2500 60  0001 C CNN "MFG_PN"
+	1    1650 2300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L transistors:NPN Q?
+U 1 1 5CD0FAD5
+P 3600 1650
+F 0 "Q?" H 3761 1688 40  0000 L CNN
+F 1 "NPN" H 3761 1612 40  0000 L CNN
+F 2 "ICs:SOT-23-3" H 3400 1900 29  0001 C CNN
+F 3 "http://www.fairchildsemi.com/ds/BS/BSS138.pdf" H 3600 1501 60  0001 C CNN
+F 4 "{PN}" H 3950 1600 60  0001 C CNN "MFG_PN"
+	1    3600 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L passives:RES_0603 R?
+U 1 1 5CD0FB69
+P 3200 1450
+F 0 "R?" V 3061 1510 40  0000 L CNN
+F 1 "RES_0603" H 3200 1550 25  0001 C CNN
+F 2 "R0603" V 3125 1510 25  0000 L CNN
+F 3 "" H 3000 1300 60  0000 C CNN
+F 4 "{value?}" V 3189 1510 40  0000 L CNN "val"
+F 5 "{PN}" H 3200 1600 60  0001 C CNN "MFG_PN"
+	1    3200 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L diodes:MD5S_Diode_Bridge BR?
+U 1 1 5CD0FC11
+P 2600 2950
+F 0 "BR?" H 2700 3313 40  0000 C CNN
+F 1 "MD5S_Diode_Bridge" H 2700 3237 40  0000 C CNN
+F 2 "diodes:MD5S" H 2620 2955 50  0001 C CNN
+F 3 "" H 2620 2955 50  0001 C CNN
+F 4 "MD5S" H 2700 3161 40  0000 C CNN "MFG_PN"
+	1    2600 2950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CD0FCEB
+P 2800 3200
+F 0 "#PWR?" H 2800 2950 50  0001 C CNN
+F 1 "GND" H 2805 3027 50  0000 C CNN
+F 2 "" H 2800 3200 50  0001 C CNN
+F 3 "" H 2800 3200 50  0001 C CNN
+	1    2800 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CD0FD09
+P 3200 2300
+F 0 "#PWR?" H 3200 2050 50  0001 C CNN
+F 1 "GND" H 3205 2127 50  0000 C CNN
+F 2 "" H 3200 2300 50  0001 C CNN
+F 3 "" H 3200 2300 50  0001 C CNN
+	1    3200 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CD0FD20
+P 3700 2300
+F 0 "#PWR?" H 3700 2050 50  0001 C CNN
+F 1 "GND" H 3705 2127 50  0000 C CNN
+F 2 "" H 3700 2300 50  0001 C CNN
+F 3 "" H 3700 2300 50  0001 C CNN
+	1    3700 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L passives:RES_0603 R?
+U 1 1 5CD0FD39
+P 3700 2150
+F 0 "R?" V 3561 2210 40  0000 L CNN
+F 1 "RES_0603" H 3700 2250 25  0001 C CNN
+F 2 "R0603" V 3625 2210 25  0000 L CNN
+F 3 "" H 3500 2000 60  0000 C CNN
+F 4 "{value?}" V 3689 2210 40  0000 L CNN "val"
+F 5 "{PN}" H 3700 2300 60  0001 C CNN "MFG_PN"
+	1    3700 2150
+	0    1    1    0   
+$EndComp
+Text Label 2850 2850 0    50   ~ 0
+Vin
+Wire Wire Line
+	3000 2850 2750 2850
+Wire Wire Line
+	2800 3200 2800 3150
+Wire Wire Line
+	2800 3150 2750 3150
+Wire Wire Line
+	3700 2300 3700 2250
+Wire Wire Line
+	3700 1900 3700 1850
+Wire Wire Line
+	3500 1650 3200 1650
+Wire Wire Line
+	3200 1650 3200 1550
+Wire Wire Line
+	3200 2000 3200 1650
+Connection ~ 3200 1650
+Text Label 3400 1100 0    50   ~ 0
+Vin
+Wire Wire Line
+	3700 1450 3700 1100
+Wire Wire Line
+	3700 1100 3200 1100
+Wire Wire Line
+	3200 1100 3200 1200
+Wire Wire Line
+	3200 2300 3200 2250
+Wire Wire Line
+	2250 2850 1950 2850
+Wire Wire Line
+	1950 2850 1950 2500
+Wire Wire Line
+	1950 2500 1650 2500
+Wire Wire Line
+	1650 2600 1850 2600
+Wire Wire Line
+	1850 2600 1850 3150
+Wire Wire Line
+	1850 3150 2250 3150
+$EndSCHEMATC
