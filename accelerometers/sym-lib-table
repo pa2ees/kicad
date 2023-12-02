@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "accelerometers-rescue")(type "Legacy")(uri "${KIPRJMOD}/accelerometers-rescue.lib")(options "")(descr ""))
+)
